@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="egg_Notes.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="eggNoteDown0000" x="0" y="690" width="148" height="166"/>
+	<SubTexture name="eggNoteLEFT0000" x="151" y="690" width="166" height="148"/>
+	<SubTexture name="eggNoteRIGHT0000" x="320" y="690" width="167" height="148"/>
+	<SubTexture name="eggNoteUP0000" x="0" y="859" width="148" height="166"/>
+</TextureAtlas>

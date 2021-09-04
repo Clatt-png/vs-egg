@@ -1,0 +1,5 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="egg.png">
+<SubTexture name="egg egg0000" x="0" y="0" width="360" height="429" frameX="0" frameY="0" frameWidth="360" frameHeight="429" />
+<SubTexture name="egg egg20000" x="360" y="0" width="343" height="430" frameX="0" frameY="0" frameWidth="343" frameHeight="430" />
+</TextureAtlas>

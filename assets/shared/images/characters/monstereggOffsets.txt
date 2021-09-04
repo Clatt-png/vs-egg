@@ -1,0 +1,8 @@
+idle 20 10
+singUP 14 20
+singRIGHT 10 -163
+singLEFT 140 -94
+singDOWN 40 -150
+spit1 1 -21
+spit2 1 -21
+spit3 1 -21

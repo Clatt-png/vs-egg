@@ -1,0 +1,3 @@
+gethit 26 16
+shakeoff 26 11
+dodge 0 -11

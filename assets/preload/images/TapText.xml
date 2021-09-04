@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="TapText.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Text instance 10000" x="0" y="0" width="937" height="72" frameX="-40" frameY="-16" frameWidth="1017" frameHeight="104"/>
+	<SubTexture name="Text instance 10001" x="940" y="0" width="1017" height="104"/>
+	<SubTexture name="Text instance 10002" x="0" y="107" width="1017" height="104"/>
+	<SubTexture name="Text instance 10003" x="1020" y="107" width="985" height="72" frameX="-16" frameY="-16" frameWidth="1017" frameHeight="104"/>
+	<SubTexture name="Text instance 10004" x="0" y="214" width="985" height="72" frameX="-16" frameY="-16" frameWidth="1017" frameHeight="104"/>
+	<SubTexture name="Text instance 10005" x="988" y="214" width="937" height="72" frameX="-40" frameY="-16" frameWidth="1017" frameHeight="104"/>
+	<SubTexture name="Text instance 10006" x="0" y="289" width="937" height="72" frameX="-40" frameY="-16" frameWidth="1017" frameHeight="104"/>
+	<SubTexture name="Text instance 10007" x="940" y="289" width="937" height="72" frameX="-40" frameY="-16" frameWidth="1017" frameHeight="104"/>
+	<SubTexture name="Text instance 10008" x="0" y="364" width="937" height="72" frameX="-40" frameY="-16" frameWidth="1017" frameHeight="104"/>
+	<SubTexture name="Text instance 10009" x="940" y="364" width="937" height="72" frameX="-40" frameY="-16" frameWidth="1017" frameHeight="104"/>
+	<SubTexture name="Text instance 10010" x="0" y="439" width="937" height="72" frameX="-40" frameY="-16" frameWidth="1017" frameHeight="104"/>
+	<SubTexture name="Text instance 10011" x="940" y="439" width="937" height="72" frameX="-40" frameY="-16" frameWidth="1017" frameHeight="104"/>
+	<SubTexture name="Text instance 10012" x="0" y="514" width="937" height="72" frameX="-40" frameY="-16" frameWidth="1017" frameHeight="104"/>
+	<SubTexture name="Text instance 10013" x="940" y="514" width="937" height="72" frameX="-40" frameY="-16" frameWidth="1017" frameHeight="104"/>
+</TextureAtlas>

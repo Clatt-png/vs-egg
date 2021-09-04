@@ -1,0 +1,4 @@
+hitmic 0 0
+getmic 0 0
+crackup 0 0
+breakout 0 0

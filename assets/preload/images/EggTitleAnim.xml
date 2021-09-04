@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="EggTitleAnim.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="EggCrackOpen instance 10000" x="0" y="0" width="0" height="0" frameX="33" frameY="13" frameWidth="1244" frameHeight="1180"/>
+	<SubTexture name="EggCrackOpen instance 10001" x="3" y="0" width="0" height="0" frameX="33" frameY="13" frameWidth="1244" frameHeight="1180"/>
+	<SubTexture name="EggCrackOpen instance 10002" x="6" y="0" width="0" height="0" frameX="33" frameY="13" frameWidth="1244" frameHeight="1180"/>
+	<SubTexture name="EggCrackOpen instance 10003" x="9" y="0" width="0" height="0" frameX="33" frameY="13" frameWidth="1244" frameHeight="1180"/>
+	<SubTexture name="EggCrackOpen instance 10004" x="12" y="0" width="0" height="0" frameX="33" frameY="13" frameWidth="1244" frameHeight="1180"/>
+	<SubTexture name="EggCrackOpen instance 10005" x="15" y="0" width="0" height="0" frameX="33" frameY="13" frameWidth="1244" frameHeight="1180"/>
+	<SubTexture name="EggCrackOpen instance 10006" x="18" y="0" width="0" height="0" frameX="33" frameY="13" frameWidth="1244" frameHeight="1180"/>
+	<SubTexture name="EggCrackOpen instance 10007" x="21" y="0" width="0" height="0" frameX="33" frameY="13" frameWidth="1244" frameHeight="1180"/>
+	<SubTexture name="EggCrackOpen instance 10008" x="24" y="0" width="0" height="0" frameX="33" frameY="13" frameWidth="1244" frameHeight="1180"/>
+	<SubTexture name="EggCrackOpen instance 10009" x="27" y="0" width="0" height="0" frameX="33" frameY="13" frameWidth="1244" frameHeight="1180"/>
+	<SubTexture name="EggCrackOpen instance 10010" x="30" y="0" width="0" height="0" frameX="33" frameY="13" frameWidth="1244" frameHeight="1180"/>
+	<SubTexture name="EggCrackOpen instance 10011" x="33" y="0" width="0" height="0" frameX="33" frameY="13" frameWidth="1244" frameHeight="1180"/>
+	<SubTexture name="EggCrackOpen instance 10012" x="36" y="0" width="0" height="0" frameX="33" frameY="13" frameWidth="1244" frameHeight="1180"/>
+	<SubTexture name="EggCrackOpen instance 10013" x="39" y="0" width="0" height="0" frameX="33" frameY="13" frameWidth="1244" frameHeight="1180"/>
+	<SubTexture name="EggCrackOpen instance 10014" x="42" y="0" width="0" height="0" frameX="33" frameY="13" frameWidth="1244" frameHeight="1180"/>
+	<SubTexture name="EggCrackOpen instance 10015" x="45" y="0" width="0" height="0" frameX="33" frameY="13" frameWidth="1244" frameHeight="1180"/>
+	<SubTexture name="EggCrackOpen instance 10016" x="48" y="0" width="0" height="0" frameX="33" frameY="13" frameWidth="1244" frameHeight="1180"/>
+	<SubTexture name="EggCrackOpen instance 10017" x="51" y="0" width="0" height="0" frameX="33" frameY="13" frameWidth="1244" frameHeight="1180"/>
+	<SubTexture name="EggCrackOpen instance 10018" x="54" y="0" width="0" height="0" frameX="33" frameY="13" frameWidth="1244" frameHeight="1180"/>
+	<SubTexture name="EggCrackOpen instance 10019" x="57" y="0" width="869" height="688" frameX="-184" frameY="0" frameWidth="1244" frameHeight="1180"/>
+	<SubTexture name="EggCrackOpen instance 10020" x="929" y="0" width="869" height="688" frameX="-184" frameY="0" frameWidth="1244" frameHeight="1180"/>
+	<SubTexture name="EggCrackOpen instance 10021" x="1801" y="0" width="947" height="689" frameX="-145" frameY="-14" frameWidth="1244" frameHeight="1180"/>
+	<SubTexture name="EggCrackOpen instance 10022" x="2751" y="0" width="947" height="689" frameX="-145" frameY="-14" frameWidth="1244" frameHeight="1180"/>
+	<SubTexture name="EggCrackOpen instance 10023" x="3701" y="0" width="1130" height="693" frameX="-64" frameY="-94" frameWidth="1244" frameHeight="1180"/>
+	<SubTexture name="EggCrackOpen instance 10024" x="4834" y="0" width="1130" height="693" frameX="-64" frameY="-94" frameWidth="1244" frameHeight="1180"/>
+	<SubTexture name="EggCrackOpen instance 10025" x="5967" y="0" width="1244" height="640" frameX="0" frameY="-341" frameWidth="1244" frameHeight="1180"/>
+	<SubTexture name="EggCrackOpen instance 10026" x="0" y="696" width="1244" height="640" frameX="0" frameY="-341" frameWidth="1244" frameHeight="1180"/>
+	<SubTexture name="EggCrackOpen instance 10027" x="1247" y="696" width="1222" height="551" frameX="-16" frameY="-629" frameWidth="1244" frameHeight="1180"/>
+	<SubTexture name="EggCrackOpen instance 10028" x="2472" y="696" width="1222" height="551" frameX="-16" frameY="-629" frameWidth="1244" frameHeight="1180"/>
+	<SubTexture name="EggTap0 instance 10000" x="4555" y="696" width="849" height="688"/>
+	<SubTexture name="EggTap0 instance 10001" x="5407" y="696" width="849" height="688"/>
+	<SubTexture name="EggTap0 instance 10002" x="6259" y="696" width="0" height="0" frameX="225" frameY="13" frameWidth="849" frameHeight="688"/>
+	<SubTexture name="EggTap0 instance 10003" x="6262" y="696" width="0" height="0" frameX="225" frameY="13" frameWidth="849" frameHeight="688"/>
+	<SubTexture name="EggTap0 instance 10004" x="6265" y="696" width="0" height="0" frameX="225" frameY="13" frameWidth="849" frameHeight="688"/>
+	<SubTexture name="EggTap0 instance 10005" x="6268" y="696" width="0" height="0" frameX="225" frameY="13" frameWidth="849" frameHeight="688"/>
+	<SubTexture name="EggTap0 instance 10006" x="6271" y="696" width="0" height="0" frameX="225" frameY="13" frameWidth="849" frameHeight="688"/>
+	<SubTexture name="EggTap0 instance 10007" x="6274" y="696" width="0" height="0" frameX="225" frameY="13" frameWidth="849" frameHeight="688"/>
+	<SubTexture name="EggTap0 instance 10008" x="6277" y="696" width="0" height="0" frameX="225" frameY="13" frameWidth="849" frameHeight="688"/>
+	<SubTexture name="EggTap0 instance 10009" x="6280" y="696" width="0" height="0" frameX="225" frameY="13" frameWidth="849" frameHeight="688"/>
+	<SubTexture name="EggTap0 instance 10010" x="6283" y="696" width="0" height="0" frameX="225" frameY="13" frameWidth="849" frameHeight="688"/>
+	<SubTexture name="EggTap0 instance 10011" x="6286" y="696" width="0" height="0" frameX="225" frameY="13" frameWidth="849" frameHeight="688"/>
+	<SubTexture name="EggTap0 instance 10012" x="6289" y="696" width="0" height="0" frameX="225" frameY="13" frameWidth="849" frameHeight="688"/>
+	<SubTexture name="EggTap0 instance 10013" x="6292" y="696" width="0" height="0" frameX="225" frameY="13" frameWidth="849" frameHeight="688"/>
+	<SubTexture name="EggTap0 instance 10014" x="6295" y="696" width="0" height="0" frameX="225" frameY="13" frameWidth="849" frameHeight="688"/>
+	<SubTexture name="EggTap0 instance 10015" x="6298" y="696" width="0" height="0" frameX="225" frameY="13" frameWidth="849" frameHeight="688"/>
+	<SubTexture name="EggTap0 instance 10016" x="6301" y="696" width="0" height="0" frameX="225" frameY="13" frameWidth="849" frameHeight="688"/>
+	<SubTexture name="EggTap0 instance 10017" x="6304" y="696" width="0" height="0" frameX="225" frameY="13" frameWidth="849" frameHeight="688"/>
+	<SubTexture name="EggTap0 instance 10018" x="6307" y="696" width="0" height="0" frameX="225" frameY="13" frameWidth="849" frameHeight="688"/>
+	<SubTexture name="EggTap0 instance 10019" x="6310" y="696" width="0" height="0" frameX="225" frameY="13" frameWidth="849" frameHeight="688"/>
+	<SubTexture name="EggTap0 instance 10020" x="6313" y="696" width="0" height="0" frameX="225" frameY="13" frameWidth="849" frameHeight="688"/>
+	<SubTexture name="EggTap0 instance 10021" x="6316" y="696" width="0" height="0" frameX="225" frameY="13" frameWidth="849" frameHeight="688"/>
+	<SubTexture name="EggTap0 instance 10022" x="6319" y="696" width="0" height="0" frameX="225" frameY="13" frameWidth="849" frameHeight="688"/>
+	<SubTexture name="EggTap0 instance 10023" x="6322" y="696" width="0" height="0" frameX="225" frameY="13" frameWidth="849" frameHeight="688"/>
+	<SubTexture name="EggTap0 instance 10024" x="6325" y="696" width="0" height="0" frameX="225" frameY="13" frameWidth="849" frameHeight="688"/>
+	<SubTexture name="EggTap0 instance 10025" x="6328" y="696" width="0" height="0" frameX="225" frameY="13" frameWidth="849" frameHeight="688"/>
+	<SubTexture name="EggTap0 instance 10026" x="6331" y="696" width="0" height="0" frameX="225" frameY="13" frameWidth="849" frameHeight="688"/>
+	<SubTexture name="EggTap0 instance 10027" x="6334" y="696" width="0" height="0" frameX="225" frameY="13" frameWidth="849" frameHeight="688"/>
+	<SubTexture name="EggTap0 instance 10028" x="6337" y="696" width="0" height="0" frameX="225" frameY="13" frameWidth="849" frameHeight="688"/>
+	<SubTexture name="EggTap0 instance 10029" x="6340" y="696" width="0" height="0" frameX="225" frameY="13" frameWidth="849" frameHeight="688"/>
+	<SubTexture name="EggTap0 instance 10030" x="6343" y="696" width="0" height="0" frameX="225" frameY="13" frameWidth="849" frameHeight="688"/>
+	<SubTexture name="EggTap0 instance 10031" x="6346" y="696" width="0" height="0" frameX="225" frameY="13" frameWidth="849" frameHeight="688"/>
+	<SubTexture name="EggTap0 instance 10032" x="6349" y="696" width="0" height="0" frameX="225" frameY="13" frameWidth="849" frameHeight="688"/>
+	<SubTexture name="EggTap0 instance 10033" x="6352" y="696" width="0" height="0" frameX="225" frameY="13" frameWidth="849" frameHeight="688"/>
+	<SubTexture name="EggTap1 instance 10000" x="6355" y="696" width="0" height="0" frameX="225" frameY="13" frameWidth="849" frameHeight="688"/>
+	<SubTexture name="EggTap1 instance 10001" x="6358" y="696" width="0" height="0" frameX="225" frameY="13" frameWidth="849" frameHeight="688"/>
+	<SubTexture name="EggTap1 instance 10002" x="6361" y="696" width="849" height="688"/>
+	<SubTexture name="EggTap1 instance 10003" x="7213" y="696" width="849" height="688"/>
+	<SubTexture name="EggTap1 instance 10004" x="8065" y="696" width="0" height="0" frameX="225" frameY="13" frameWidth="849" frameHeight="688"/>
+	<SubTexture name="EggTap1 instance 10005" x="8068" y="696" width="0" height="0" frameX="225" frameY="13" frameWidth="849" frameHeight="688"/>
+	<SubTexture name="EggTap1 instance 10006" x="8071" y="696" width="0" height="0" frameX="225" frameY="13" frameWidth="849" frameHeight="688"/>
+	<SubTexture name="EggTap1 instance 10007" x="8074" y="696" width="0" height="0" frameX="225" frameY="13" frameWidth="849" frameHeight="688"/>
+	<SubTexture name="EggTap1 instance 10008" x="8077" y="696" width="0" height="0" frameX="225" frameY="13" frameWidth="849" frameHeight="688"/>
+	<SubTexture name="EggTap1 instance 10009" x="8080" y="696" width="0" height="0" frameX="225" frameY="13" frameWidth="849" frameHeight="688"/>
+	<SubTexture name="EggTap1 instance 10010" x="8083" y="696" width="0" height="0" frameX="225" frameY="13" frameWidth="849" frameHeight="688"/>
+	<SubTexture name="EggTap1 instance 10011" x="8086" y="696" width="0" height="0" frameX="225" frameY="13" frameWidth="849" frameHeight="688"/>
+	<SubTexture name="EggTap1 instance 10012" x="8089" y="696" width="0" height="0" frameX="225" frameY="13" frameWidth="849" frameHeight="688"/>
+	<SubTexture name="EggTap1 instance 10013" x="8092" y="696" width="0" height="0" frameX="225" frameY="13" frameWidth="849" frameHeight="688"/>
+	<SubTexture name="EggTap1 instance 10014" x="8095" y="696" width="0" height="0" frameX="225" frameY="13" frameWidth="849" frameHeight="688"/>
+	<SubTexture name="EggTap1 instance 10015" x="8098" y="696" width="0" height="0" frameX="225" frameY="13" frameWidth="849" frameHeight="688"/>
+	<SubTexture name="EggTap1 instance 10016" x="8101" y="696" width="0" height="0" frameX="225" frameY="13" frameWidth="849" frameHeight="688"/>
+	<SubTexture name="EggTap1 instance 10017" x="8104" y="696" width="0" height="0" frameX="225" frameY="13" frameWidth="849" frameHeight="688"/>
+	<SubTexture name="EggTap1 instance 10018" x="8107" y="696" width="0" height="0" frameX="225" frameY="13" frameWidth="849" frameHeight="688"/>
+	<SubTexture name="EggTap1 instance 10019" x="8110" y="696" width="0" height="0" frameX="225" frameY="13" frameWidth="849" frameHeight="688"/>
+	<SubTexture name="EggTap1 instance 10020" x="8113" y="696" width="0" height="0" frameX="225" frameY="13" frameWidth="849" frameHeight="688"/>
+	<SubTexture name="EggTap1 instance 10021" x="8116" y="696" width="0" height="0" frameX="225" frameY="13" frameWidth="849" frameHeight="688"/>
+	<SubTexture name="EggTap1 instance 10022" x="8119" y="696" width="0" height="0" frameX="225" frameY="13" frameWidth="849" frameHeight="688"/>
+	<SubTexture name="EggTap1 instance 10023" x="8122" y="696" width="0" height="0" frameX="225" frameY="13" frameWidth="849" frameHeight="688"/>
+	<SubTexture name="EggTap1 instance 10024" x="8125" y="696" width="0" height="0" frameX="225" frameY="13" frameWidth="849" frameHeight="688"/>
+	<SubTexture name="EggTap1 instance 10025" x="8128" y="696" width="0" height="0" frameX="225" frameY="13" frameWidth="849" frameHeight="688"/>
+	<SubTexture name="EggTap1 instance 10026" x="8131" y="696" width="0" height="0" frameX="225" frameY="13" frameWidth="849" frameHeight="688"/>
+	<SubTexture name="EggTap1 instance 10027" x="8134" y="696" width="0" height="0" frameX="225" frameY="13" frameWidth="849" frameHeight="688"/>
+	<SubTexture name="EggTap1 instance 10028" x="8137" y="696" width="0" height="0" frameX="225" frameY="13" frameWidth="849" frameHeight="688"/>
+	<SubTexture name="EggTap1 instance 10029" x="8140" y="696" width="0" height="0" frameX="225" frameY="13" frameWidth="849" frameHeight="688"/>
+	<SubTexture name="EggTap1 instance 10030" x="8143" y="696" width="0" height="0" frameX="225" frameY="13" frameWidth="849" frameHeight="688"/>
+	<SubTexture name="EggTap1 instance 10031" x="8146" y="696" width="0" height="0" frameX="225" frameY="13" frameWidth="849" frameHeight="688"/>
+	<SubTexture name="EggTap1 instance 10032" x="8149" y="696" width="0" height="0" frameX="225" frameY="13" frameWidth="849" frameHeight="688"/>
+	<SubTexture name="EggTap1 instance 10033" x="8152" y="696" width="0" height="0" frameX="225" frameY="13" frameWidth="849" frameHeight="688"/>
+	<SubTexture name="EggTap2 instance 10000" x="8155" y="696" width="0" height="0" frameX="225" frameY="13" frameWidth="849" frameHeight="688"/>
+	<SubTexture name="EggTap2 instance 10001" x="8158" y="696" width="0" height="0" frameX="225" frameY="13" frameWidth="849" frameHeight="688"/>
+	<SubTexture name="EggTap2 instance 10002" x="8161" y="696" width="0" height="0" frameX="225" frameY="13" frameWidth="849" frameHeight="688"/>
+	<SubTexture name="EggTap2 instance 10003" x="8164" y="696" width="0" height="0" frameX="225" frameY="13" frameWidth="849" frameHeight="688"/>
+	<SubTexture name="EggTap2 instance 10004" x="0" y="1387" width="849" height="688"/>
+	<SubTexture name="EggTap2 instance 10005" x="852" y="1387" width="849" height="688"/>
+	<SubTexture name="EggTap2 instance 10006" x="1704" y="1387" width="0" height="0" frameX="225" frameY="13" frameWidth="849" frameHeight="688"/>
+	<SubTexture name="EggTap2 instance 10007" x="1707" y="1387" width="0" height="0" frameX="225" frameY="13" frameWidth="849" frameHeight="688"/>
+	<SubTexture name="EggTap2 instance 10008" x="1710" y="1387" width="0" height="0" frameX="225" frameY="13" frameWidth="849" frameHeight="688"/>
+	<SubTexture name="EggTap2 instance 10009" x="1713" y="1387" width="0" height="0" frameX="225" frameY="13" frameWidth="849" frameHeight="688"/>
+	<SubTexture name="EggTap2 instance 10010" x="1716" y="1387" width="0" height="0" frameX="225" frameY="13" frameWidth="849" frameHeight="688"/>
+	<SubTexture name="EggTap2 instance 10011" x="1719" y="1387" width="0" height="0" frameX="225" frameY="13" frameWidth="849" frameHeight="688"/>
+	<SubTexture name="EggTap2 instance 10012" x="1722" y="1387" width="0" height="0" frameX="225" frameY="13" frameWidth="849" frameHeight="688"/>
+	<SubTexture name="EggTap2 instance 10013" x="1725" y="1387" width="0" height="0" frameX="225" frameY="13" frameWidth="849" frameHeight="688"/>
+	<SubTexture name="EggTap2 instance 10014" x="1728" y="1387" width="0" height="0" frameX="225" frameY="13" frameWidth="849" frameHeight="688"/>
+	<SubTexture name="EggTap2 instance 10015" x="1731" y="1387" width="0" height="0" frameX="225" frameY="13" frameWidth="849" frameHeight="688"/>
+	<SubTexture name="EggTap2 instance 10016" x="1734" y="1387" width="0" height="0" frameX="225" frameY="13" frameWidth="849" frameHeight="688"/>
+	<SubTexture name="EggTap2 instance 10017" x="1737" y="1387" width="0" height="0" frameX="225" frameY="13" frameWidth="849" frameHeight="688"/>
+	<SubTexture name="EggTap2 instance 10018" x="1740" y="1387" width="0" height="0" frameX="225" frameY="13" frameWidth="849" frameHeight="688"/>
+	<SubTexture name="EggTap2 instance 10019" x="1743" y="1387" width="0" height="0" frameX="225" frameY="13" frameWidth="849" frameHeight="688"/>
+	<SubTexture name="EggTap2 instance 10020" x="1746" y="1387" width="0" height="0" frameX="225" frameY="13" frameWidth="849" frameHeight="688"/>
+	<SubTexture name="EggTap2 instance 10021" x="1749" y="1387" width="0" height="0" frameX="225" frameY="13" frameWidth="849" frameHeight="688"/>
+	<SubTexture name="EggTap2 instance 10022" x="1752" y="1387" width="0" height="0" frameX="225" frameY="13" frameWidth="849" frameHeight="688"/>
+	<SubTexture name="EggTap2 instance 10023" x="1755" y="1387" width="0" height="0" frameX="225" frameY="13" frameWidth="849" frameHeight="688"/>
+	<SubTexture name="EggTap2 instance 10024" x="1758" y="1387" width="0" height="0" frameX="225" frameY="13" frameWidth="849" frameHeight="688"/>
+	<SubTexture name="EggTap2 instance 10025" x="1761" y="1387" width="0" height="0" frameX="225" frameY="13" frameWidth="849" frameHeight="688"/>
+	<SubTexture name="EggTap2 instance 10026" x="1764" y="1387" width="0" height="0" frameX="225" frameY="13" frameWidth="849" frameHeight="688"/>
+	<SubTexture name="EggTap2 instance 10027" x="1767" y="1387" width="0" height="0" frameX="225" frameY="13" frameWidth="849" frameHeight="688"/>
+	<SubTexture name="EggTap2 instance 10028" x="1770" y="1387" width="0" height="0" frameX="225" frameY="13" frameWidth="849" frameHeight="688"/>
+	<SubTexture name="EggTap2 instance 10029" x="1773" y="1387" width="0" height="0" frameX="225" frameY="13" frameWidth="849" frameHeight="688"/>
+	<SubTexture name="EggTap2 instance 10030" x="1776" y="1387" width="0" height="0" frameX="225" frameY="13" frameWidth="849" frameHeight="688"/>
+	<SubTexture name="EggTap2 instance 10031" x="1779" y="1387" width="0" height="0" frameX="225" frameY="13" frameWidth="849" frameHeight="688"/>
+	<SubTexture name="EggTap2 instance 10032" x="1782" y="1387" width="0" height="0" frameX="225" frameY="13" frameWidth="849" frameHeight="688"/>
+	<SubTexture name="EggTap2 instance 10033" x="1785" y="1387" width="0" height="0" frameX="225" frameY="13" frameWidth="849" frameHeight="688"/>
+	<SubTexture name="EggTap3 instance 10000" x="1788" y="1387" width="0" height="0" frameX="225" frameY="13" frameWidth="849" frameHeight="688"/>
+	<SubTexture name="EggTap3 instance 10001" x="1791" y="1387" width="0" height="0" frameX="225" frameY="13" frameWidth="849" frameHeight="688"/>
+	<SubTexture name="EggTap3 instance 10002" x="1794" y="1387" width="0" height="0" frameX="225" frameY="13" frameWidth="849" frameHeight="688"/>
+	<SubTexture name="EggTap3 instance 10003" x="1797" y="1387" width="0" height="0" frameX="225" frameY="13" frameWidth="849" frameHeight="688"/>
+	<SubTexture name="EggTap3 instance 10004" x="1800" y="1387" width="0" height="0" frameX="225" frameY="13" frameWidth="849" frameHeight="688"/>
+	<SubTexture name="EggTap3 instance 10005" x="1803" y="1387" width="0" height="0" frameX="225" frameY="13" frameWidth="849" frameHeight="688"/>
+	<SubTexture name="EggTap3 instance 10006" x="1806" y="1387" width="849" height="688"/>
+	<SubTexture name="EggTap3 instance 10007" x="2658" y="1387" width="849" height="688"/>
+	<SubTexture name="EggTap3 instance 10008" x="3510" y="1387" width="849" height="688"/>
+	<SubTexture name="EggTap3 instance 10009" x="4362" y="1387" width="849" height="688"/>
+	<SubTexture name="EggTap3 instance 10010" x="5214" y="1387" width="849" height="688"/>
+	<SubTexture name="EggTap3 instance 10011" x="6066" y="1387" width="849" height="688"/>
+	<SubTexture name="EggTap3 instance 10012" x="6918" y="1387" width="849" height="688"/>
+	<SubTexture name="EggTap3 instance 10013" x="0" y="2078" width="849" height="688"/>
+	<SubTexture name="EggTap3 instance 10014" x="852" y="2078" width="849" height="688"/>
+	<SubTexture name="EggTap3 instance 10015" x="1704" y="2078" width="849" height="688"/>
+	<SubTexture name="EggTap3 instance 10016" x="2556" y="2078" width="849" height="688"/>
+	<SubTexture name="EggTap3 instance 10017" x="3408" y="2078" width="849" height="688"/>
+	<SubTexture name="EggTap3 instance 10018" x="4260" y="2078" width="849" height="688"/>
+	<SubTexture name="EggTap3 instance 10019" x="5112" y="2078" width="0" height="0" frameX="225" frameY="13" frameWidth="849" frameHeight="688"/>
+	<SubTexture name="EggTap3 instance 10020" x="5115" y="2078" width="0" height="0" frameX="225" frameY="13" frameWidth="849" frameHeight="688"/>
+	<SubTexture name="EggTap3 instance 10021" x="5118" y="2078" width="0" height="0" frameX="225" frameY="13" frameWidth="849" frameHeight="688"/>
+	<SubTexture name="EggTap3 instance 10022" x="5121" y="2078" width="0" height="0" frameX="225" frameY="13" frameWidth="849" frameHeight="688"/>
+	<SubTexture name="EggTap3 instance 10023" x="5124" y="2078" width="0" height="0" frameX="225" frameY="13" frameWidth="849" frameHeight="688"/>
+	<SubTexture name="EggTap3 instance 10024" x="5127" y="2078" width="0" height="0" frameX="225" frameY="13" frameWidth="849" frameHeight="688"/>
+	<SubTexture name="EggTap3 instance 10025" x="5130" y="2078" width="0" height="0" frameX="225" frameY="13" frameWidth="849" frameHeight="688"/>
+	<SubTexture name="EggTap3 instance 10026" x="5133" y="2078" width="0" height="0" frameX="225" frameY="13" frameWidth="849" frameHeight="688"/>
+	<SubTexture name="EggTap3 instance 10027" x="5136" y="2078" width="0" height="0" frameX="225" frameY="13" frameWidth="849" frameHeight="688"/>
+	<SubTexture name="EggTap3 instance 10028" x="5139" y="2078" width="0" height="0" frameX="225" frameY="13" frameWidth="849" frameHeight="688"/>
+	<SubTexture name="EggTap3 instance 10029" x="5142" y="2078" width="0" height="0" frameX="225" frameY="13" frameWidth="849" frameHeight="688"/>
+	<SubTexture name="EggTap3 instance 10030" x="5145" y="2078" width="0" height="0" frameX="225" frameY="13" frameWidth="849" frameHeight="688"/>
+	<SubTexture name="EggTap3 instance 10031" x="5148" y="2078" width="0" height="0" frameX="225" frameY="13" frameWidth="849" frameHeight="688"/>
+	<SubTexture name="EggTap3 instance 10032" x="5151" y="2078" width="0" height="0" frameX="225" frameY="13" frameWidth="849" frameHeight="688"/>
+	<SubTexture name="EggTap3 instance 10033" x="5154" y="2078" width="0" height="0" frameX="225" frameY="13" frameWidth="849" frameHeight="688"/>
+</TextureAtlas>

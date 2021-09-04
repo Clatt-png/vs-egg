@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="bfandgf.png">
+<SubTexture name="1bfandgf bfhappy0000" x="0" y="0" width="214" height="304" frameX="0" frameY="0" frameWidth="214" frameHeight="304" />
+<SubTexture name="2bfandgf bfshock0000" x="214" y="0" width="221" height="304" frameX="0" frameY="0" frameWidth="221" frameHeight="304" />
+<SubTexture name="3bfandgf bfworried0000" x="435" y="0" width="222" height="304" frameX="0" frameY="0" frameWidth="222" frameHeight="304" />
+<SubTexture name="4bfandgf gfnormal0000" x="657" y="0" width="274" height="304" frameX="0" frameY="0" frameWidth="274" frameHeight="304" />
+<SubTexture name="5bfandgf gfshock0000" x="0" y="304" width="275" height="304" frameX="0" frameY="0" frameWidth="275" frameHeight="304" />
+<SubTexture name="6bfandgf gfworried0000" x="275" y="304" width="275" height="304" frameX="0" frameY="0" frameWidth="275" frameHeight="304" />
+<SubTexture name="7bfandgf bfnormal0000" x="550" y="304" width="214" height="304" frameX="0" frameY="0" frameWidth="214" frameHeight="304" />
+</TextureAtlas>

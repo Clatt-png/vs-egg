@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="sickbabyEgg.png">
+	<!-- Created with Adobe Animate version 21.0.8.42666 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="MB_Sway instance 10000" x="0" y="0" width="672" height="662" frameX="-65" frameY="-9" frameWidth="739" frameHeight="672"/>
+	<SubTexture name="MB_Sway instance 10001" x="0" y="0" width="672" height="662" frameX="-65" frameY="-9" frameWidth="739" frameHeight="672"/>
+	<SubTexture name="MB_Sway instance 10002" x="722" y="0" width="674" height="662" frameX="-65" frameY="-9" frameWidth="739" frameHeight="672"/>
+	<SubTexture name="MB_Sway instance 10003" x="722" y="0" width="674" height="662" frameX="-65" frameY="-9" frameWidth="739" frameHeight="672"/>
+	<SubTexture name="MB_Sway instance 10004" x="1446" y="0" width="674" height="663" frameX="-65" frameY="-8" frameWidth="739" frameHeight="672"/>
+	<SubTexture name="MB_Sway instance 10005" x="1446" y="0" width="674" height="663" frameX="-65" frameY="-8" frameWidth="739" frameHeight="672"/>
+	<SubTexture name="MB_Sway instance 10006" x="2170" y="0" width="672" height="666" frameX="-65" frameY="-6" frameWidth="739" frameHeight="672"/>
+	<SubTexture name="MB_Sway instance 10007" x="2170" y="0" width="672" height="666" frameX="-65" frameY="-6" frameWidth="739" frameHeight="672"/>
+	<SubTexture name="MB_Sway instance 10008" x="2892" y="0" width="667" height="668" frameX="-66" frameY="-4" frameWidth="739" frameHeight="672"/>
+	<SubTexture name="MB_Sway instance 10009" x="2892" y="0" width="667" height="668" frameX="-66" frameY="-4" frameWidth="739" frameHeight="672"/>
+	<SubTexture name="MB_Sway instance 10010" x="3609" y="0" width="665" height="671" frameX="-62" frameY="-1" frameWidth="739" frameHeight="672"/>
+	<SubTexture name="MB_Sway instance 10011" x="3609" y="0" width="665" height="671" frameX="-62" frameY="-1" frameWidth="739" frameHeight="672"/>
+	<SubTexture name="MB_Sway instance 10012" x="4324" y="0" width="672" height="672" frameX="-48" frameY="0" frameWidth="739" frameHeight="672"/>
+	<SubTexture name="MB_Sway instance 10013" x="4324" y="0" width="672" height="672" frameX="-48" frameY="0" frameWidth="739" frameHeight="672"/>
+	<SubTexture name="MB_Sway instance 10014" x="5046" y="0" width="679" height="672" frameX="-33" frameY="0" frameWidth="739" frameHeight="672"/>
+	<SubTexture name="MB_Sway instance 10015" x="5046" y="0" width="679" height="672" frameX="-33" frameY="0" frameWidth="739" frameHeight="672"/>
+	<SubTexture name="MB_Sway instance 10016" x="5775" y="0" width="681" height="671" frameX="-21" frameY="-1" frameWidth="739" frameHeight="672"/>
+	<SubTexture name="MB_Sway instance 10017" x="5775" y="0" width="681" height="671" frameX="-21" frameY="-1" frameWidth="739" frameHeight="672"/>
+	<SubTexture name="MB_Sway instance 10018" x="6506" y="0" width="681" height="668" frameX="-12" frameY="-3" frameWidth="739" frameHeight="672"/>
+	<SubTexture name="MB_Sway instance 10019" x="6506" y="0" width="681" height="668" frameX="-12" frameY="-3" frameWidth="739" frameHeight="672"/>
+	<SubTexture name="MB_Sway instance 10020" x="7237" y="0" width="679" height="667" frameX="-5" frameY="-4" frameWidth="739" frameHeight="672"/>
+	<SubTexture name="MB_Sway instance 10021" x="0" y="722" width="679" height="667" frameX="-5" frameY="-4" frameWidth="739" frameHeight="672"/>
+	<SubTexture name="MB_Sway instance 10022" x="729" y="722" width="677" height="666" frameX="-1" frameY="-5" frameWidth="739" frameHeight="672"/>
+	<SubTexture name="MB_Sway instance 10023" x="1456" y="722" width="676" height="666" frameX="-2" frameY="-5" frameWidth="739" frameHeight="672"/>
+	<SubTexture name="MB_Sway instance 10024" x="2182" y="722" width="673" height="665" frameX="0" frameY="-6" frameWidth="739" frameHeight="672"/>
+	<SubTexture name="MB_Sway instance 10025" x="2905" y="722" width="672" height="666" frameX="-1" frameY="-6" frameWidth="739" frameHeight="672"/>
+	<SubTexture name="MB_Sway instance 10026" x="3627" y="722" width="669" height="666" frameX="-1" frameY="-6" frameWidth="739" frameHeight="672"/>
+	<SubTexture name="MB_Sway instance 10027" x="4346" y="722" width="668" height="667" frameX="-4" frameY="-5" frameWidth="739" frameHeight="672"/>
+	<SubTexture name="MB_Sway instance 10028" x="5064" y="722" width="664" height="667" frameX="-4" frameY="-5" frameWidth="739" frameHeight="672"/>
+	<SubTexture name="MB_Sway instance 10029" x="5778" y="722" width="663" height="668" frameX="-11" frameY="-4" frameWidth="739" frameHeight="672"/>
+	<SubTexture name="MB_Sway instance 10030" x="6491" y="722" width="659" height="668" frameX="-11" frameY="-4" frameWidth="739" frameHeight="672"/>
+	<SubTexture name="MB_Sway instance 10031" x="7200" y="722" width="658" height="670" frameX="-22" frameY="-2" frameWidth="739" frameHeight="672"/>
+	<SubTexture name="MB_Sway instance 10032" x="7200" y="722" width="658" height="670" frameX="-22" frameY="-2" frameWidth="739" frameHeight="672"/>
+	<SubTexture name="MB_Sway instance 10033" x="0" y="1442" width="657" height="672" frameX="-36" frameY="0" frameWidth="739" frameHeight="672"/>
+	<SubTexture name="MB_Sway instance 10034" x="0" y="1442" width="657" height="672" frameX="-36" frameY="0" frameWidth="739" frameHeight="672"/>
+	<SubTexture name="MB_Sway instance 10035" x="707" y="1442" width="654" height="672" frameX="-53" frameY="0" frameWidth="739" frameHeight="672"/>
+	<SubTexture name="MB_Sway instance 10036" x="707" y="1442" width="654" height="672" frameX="-53" frameY="0" frameWidth="739" frameHeight="672"/>
+	<SubTexture name="MB_Sway instance 10037" x="1411" y="1442" width="653" height="670" frameX="-66" frameY="-2" frameWidth="739" frameHeight="672"/>
+	<SubTexture name="MB_Sway instance 10038" x="1411" y="1442" width="653" height="670" frameX="-66" frameY="-2" frameWidth="739" frameHeight="672"/>
+	<SubTexture name="MB_Sway instance 10039" x="2114" y="1442" width="663" height="668" frameX="-65" frameY="-4" frameWidth="739" frameHeight="672"/>
+	<SubTexture name="MB_Sway instance 10040" x="2114" y="1442" width="663" height="668" frameX="-65" frameY="-4" frameWidth="739" frameHeight="672"/>
+	<SubTexture name="MB_Sway instance 10041" x="2827" y="1442" width="668" height="664" frameX="-65" frameY="-7" frameWidth="739" frameHeight="672"/>
+	<SubTexture name="MB_Sway instance 10042" x="2827" y="1442" width="668" height="664" frameX="-65" frameY="-7" frameWidth="739" frameHeight="672"/>
+	<SubTexture name="MB_Sway instance 10043" x="3545" y="1442" width="671" height="662" frameX="-65" frameY="-9" frameWidth="739" frameHeight="672"/>
+	<SubTexture name="MB_Sway instance 10044" x="3545" y="1442" width="671" height="662" frameX="-65" frameY="-9" frameWidth="739" frameHeight="672"/>
+	<SubTexture name="MB_Sway instance 10045" x="4266" y="1442" width="672" height="662" frameX="-65" frameY="-9" frameWidth="739" frameHeight="672"/>
+	<SubTexture name="MB_Sway instance 10046" x="4266" y="1442" width="672" height="662" frameX="-65" frameY="-9" frameWidth="739" frameHeight="672"/>
+</TextureAtlas>

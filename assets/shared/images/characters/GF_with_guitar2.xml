@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="GF_with_guitar2.png">
+	<!-- Created with Adobe Animate version 21.0.8.42666 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="GF Bring Out Guitar flat instance 10000" x="0" y="0" width="1094" height="680" frameX="0" frameY="-2" frameWidth="1094" frameHeight="682"/>
+	<SubTexture name="GF Bring Out Guitar flat instance 10001" x="0" y="0" width="1094" height="680" frameX="0" frameY="-2" frameWidth="1094" frameHeight="682"/>
+	<SubTexture name="GF Bring Out Guitar flat instance 10002" x="1144" y="0" width="1094" height="680" frameX="0" frameY="-2" frameWidth="1094" frameHeight="682"/>
+	<SubTexture name="GF Bring Out Guitar flat instance 10003" x="2288" y="0" width="1094" height="680" frameX="0" frameY="-2" frameWidth="1094" frameHeight="682"/>
+	<SubTexture name="GF Bring Out Guitar flat instance 10004" x="3432" y="0" width="1094" height="679" frameX="0" frameY="-3" frameWidth="1094" frameHeight="682"/>
+	<SubTexture name="GF Bring Out Guitar flat instance 10005" x="3432" y="0" width="1094" height="679" frameX="0" frameY="-3" frameWidth="1094" frameHeight="682"/>
+	<SubTexture name="GF Bring Out Guitar flat instance 10006" x="4576" y="0" width="1094" height="680" frameX="0" frameY="-2" frameWidth="1094" frameHeight="682"/>
+	<SubTexture name="GF Bring Out Guitar flat instance 10007" x="4576" y="0" width="1094" height="680" frameX="0" frameY="-2" frameWidth="1094" frameHeight="682"/>
+	<SubTexture name="GF Bring Out Guitar flat instance 10008" x="5720" y="0" width="1094" height="680" frameX="0" frameY="-2" frameWidth="1094" frameHeight="682"/>
+	<SubTexture name="GF Bring Out Guitar flat instance 10009" x="5720" y="0" width="1094" height="680" frameX="0" frameY="-2" frameWidth="1094" frameHeight="682"/>
+	<SubTexture name="GF Bring Out Guitar flat instance 10010" x="6864" y="0" width="1094" height="679" frameX="0" frameY="-3" frameWidth="1094" frameHeight="682"/>
+	<SubTexture name="GF Bring Out Guitar flat instance 10011" x="6864" y="0" width="1094" height="679" frameX="0" frameY="-3" frameWidth="1094" frameHeight="682"/>
+	<SubTexture name="GF Bring Out Guitar flat instance 10012" x="0" y="730" width="1094" height="678" frameX="0" frameY="-4" frameWidth="1094" frameHeight="682"/>
+	<SubTexture name="GF Bring Out Guitar flat instance 10013" x="0" y="730" width="1094" height="678" frameX="0" frameY="-4" frameWidth="1094" frameHeight="682"/>
+	<SubTexture name="GF Bring Out Guitar flat instance 10014" x="1144" y="730" width="1094" height="678" frameX="0" frameY="-4" frameWidth="1094" frameHeight="682"/>
+	<SubTexture name="GF Bring Out Guitar flat instance 10015" x="1144" y="730" width="1094" height="678" frameX="0" frameY="-4" frameWidth="1094" frameHeight="682"/>
+	<SubTexture name="GF Bring Out Guitar flat instance 10016" x="2288" y="730" width="1094" height="678" frameX="0" frameY="-4" frameWidth="1094" frameHeight="682"/>
+	<SubTexture name="GF Bring Out Guitar flat instance 10017" x="2288" y="730" width="1094" height="678" frameX="0" frameY="-4" frameWidth="1094" frameHeight="682"/>
+	<SubTexture name="GF Bring Out Guitar flat instance 10018" x="3432" y="730" width="1094" height="678" frameX="0" frameY="-4" frameWidth="1094" frameHeight="682"/>
+	<SubTexture name="GF Bring Out Guitar flat instance 10019" x="4576" y="730" width="1094" height="677" frameX="0" frameY="-5" frameWidth="1094" frameHeight="682"/>
+	<SubTexture name="GF Bring Out Guitar flat instance 10020" x="4576" y="730" width="1094" height="677" frameX="0" frameY="-5" frameWidth="1094" frameHeight="682"/>
+	<SubTexture name="GF Bring Out Guitar flat instance 10021" x="5720" y="730" width="1094" height="676" frameX="0" frameY="-6" frameWidth="1094" frameHeight="682"/>
+	<SubTexture name="GF Bring Out Guitar flat instance 10022" x="5720" y="730" width="1094" height="676" frameX="0" frameY="-6" frameWidth="1094" frameHeight="682"/>
+	<SubTexture name="GF Bring Out Guitar flat instance 10023" x="6864" y="730" width="1094" height="682"/>
+	<SubTexture name="GF Bring Out Guitar flat instance 10024" x="6864" y="730" width="1094" height="682"/>
+	<SubTexture name="GF Bring Out Guitar flat instance 10025" x="0" y="1462" width="1094" height="681" frameX="0" frameY="-1" frameWidth="1094" frameHeight="682"/>
+	<SubTexture name="GF Bring Out Guitar flat instance 10026" x="0" y="1462" width="1094" height="681" frameX="0" frameY="-1" frameWidth="1094" frameHeight="682"/>
+	<SubTexture name="GF Bring Out Guitar flat instance 10027" x="0" y="1462" width="1094" height="681" frameX="0" frameY="-1" frameWidth="1094" frameHeight="682"/>
+	<SubTexture name="GF Bring Out Guitar flat instance 10028" x="1144" y="1462" width="1094" height="680" frameX="0" frameY="-2" frameWidth="1094" frameHeight="682"/>
+	<SubTexture name="GF Bring Out Guitar flat instance 10029" x="1144" y="1462" width="1094" height="680" frameX="0" frameY="-2" frameWidth="1094" frameHeight="682"/>
+	<SubTexture name="GF Bring Out Guitar flat instance 10030" x="2288" y="1462" width="1094" height="678" frameX="0" frameY="-4" frameWidth="1094" frameHeight="682"/>
+	<SubTexture name="GF Bring Out Guitar flat instance 10031" x="2288" y="1462" width="1094" height="678" frameX="0" frameY="-4" frameWidth="1094" frameHeight="682"/>
+	<SubTexture name="GF Bring Out Guitar flat instance 10032" x="3432" y="1462" width="1094" height="679" frameX="0" frameY="-3" frameWidth="1094" frameHeight="682"/>
+	<SubTexture name="GF Bring Out Guitar flat instance 10033" x="3432" y="1462" width="1094" height="679" frameX="0" frameY="-3" frameWidth="1094" frameHeight="682"/>
+	<SubTexture name="GF Bring Out Guitar flat instance 10034" x="3432" y="1462" width="1094" height="679" frameX="0" frameY="-3" frameWidth="1094" frameHeight="682"/>
+	<SubTexture name="GF Guitar flat instance 10000" x="4576" y="1462" width="1094" height="679" frameX="0" frameY="-6" frameWidth="1094" frameHeight="685"/>
+	<SubTexture name="GF Guitar flat instance 10001" x="5720" y="1462" width="1094" height="679" frameX="0" frameY="-6" frameWidth="1094" frameHeight="685"/>
+	<SubTexture name="GF Guitar flat instance 10002" x="6864" y="1462" width="1094" height="676" frameX="0" frameY="-9" frameWidth="1094" frameHeight="685"/>
+	<SubTexture name="GF Guitar flat instance 10003" x="0" y="2193" width="1094" height="676" frameX="0" frameY="-9" frameWidth="1094" frameHeight="685"/>
+	<SubTexture name="GF Guitar flat instance 10004" x="1144" y="2193" width="1094" height="671" frameX="0" frameY="-14" frameWidth="1094" frameHeight="685"/>
+	<SubTexture name="GF Guitar flat instance 10005" x="2288" y="2193" width="1094" height="672" frameX="0" frameY="-13" frameWidth="1094" frameHeight="685"/>
+	<SubTexture name="GF Guitar flat instance 10006" x="3432" y="2193" width="1094" height="680" frameX="0" frameY="-5" frameWidth="1094" frameHeight="685"/>
+	<SubTexture name="GF Guitar flat instance 10007" x="4576" y="2193" width="1094" height="684" frameX="0" frameY="-1" frameWidth="1094" frameHeight="685"/>
+	<SubTexture name="GF Guitar flat instance 10008" x="5720" y="2193" width="1094" height="685"/>
+	<SubTexture name="GF Guitar flat instance 10009" x="6864" y="2193" width="1094" height="685"/>
+	<SubTexture name="GF Guitar flat instance 10010" x="0" y="2928" width="1094" height="685"/>
+	<SubTexture name="GF Guitar flat instance 10011" x="0" y="2928" width="1094" height="685"/>
+	<SubTexture name="GF Guitar flat instance 10012" x="1144" y="2928" width="1094" height="685"/>
+	<SubTexture name="GF Guitar flat instance 10013" x="2288" y="2928" width="1094" height="685"/>
+	<SubTexture name="GF Guitar flat instance 10014" x="2288" y="2928" width="1094" height="685"/>
+	<SubTexture name="GF Guitar flat instance 10015" x="3432" y="2928" width="1094" height="673" frameX="0" frameY="-12" frameWidth="1094" frameHeight="685"/>
+	<SubTexture name="GF Guitar flat instance 10016" x="4576" y="2928" width="1094" height="673" frameX="0" frameY="-12" frameWidth="1094" frameHeight="685"/>
+	<SubTexture name="GF Guitar flat instance 10017" x="5720" y="2928" width="1094" height="673" frameX="0" frameY="-12" frameWidth="1094" frameHeight="685"/>
+	<SubTexture name="GF Guitar flat instance 10018" x="6864" y="2928" width="1094" height="673" frameX="0" frameY="-12" frameWidth="1094" frameHeight="685"/>
+	<SubTexture name="GF Guitar flat instance 10019" x="0" y="3663" width="1094" height="673" frameX="0" frameY="-12" frameWidth="1094" frameHeight="685"/>
+	<SubTexture name="GF Guitar flat instance 10020" x="1144" y="3663" width="1094" height="674" frameX="0" frameY="-11" frameWidth="1094" frameHeight="685"/>
+	<SubTexture name="GF Guitar flat instance 10021" x="2288" y="3663" width="1094" height="677" frameX="0" frameY="-8" frameWidth="1094" frameHeight="685"/>
+	<SubTexture name="GF Guitar flat instance 10022" x="3432" y="3663" width="1094" height="678" frameX="0" frameY="-7" frameWidth="1094" frameHeight="685"/>
+	<SubTexture name="GF Guitar flat instance 10023" x="4576" y="3663" width="1094" height="680" frameX="0" frameY="-5" frameWidth="1094" frameHeight="685"/>
+	<SubTexture name="GF Guitar flat instance 10024" x="5720" y="3663" width="1094" height="680" frameX="0" frameY="-5" frameWidth="1094" frameHeight="685"/>
+	<SubTexture name="GF Guitar flat instance 10025" x="6864" y="3663" width="1094" height="682" frameX="0" frameY="-3" frameWidth="1094" frameHeight="685"/>
+	<SubTexture name="GF Guitar flat instance 10026" x="6864" y="3663" width="1094" height="682" frameX="0" frameY="-3" frameWidth="1094" frameHeight="685"/>
+	<SubTexture name="GF Guitar flat instance 10027" x="0" y="4395" width="1094" height="682" frameX="0" frameY="-3" frameWidth="1094" frameHeight="685"/>
+	<SubTexture name="GF Guitar flat instance 10028" x="1144" y="4395" width="1094" height="681" frameX="0" frameY="-4" frameWidth="1094" frameHeight="685"/>
+	<SubTexture name="GF Guitar flat instance 10029" x="1144" y="4395" width="1094" height="681" frameX="0" frameY="-4" frameWidth="1094" frameHeight="685"/>
+	<SubTexture name="GF THYDI flat instance 10000" x="2288" y="4395" width="1094" height="653" frameX="0" frameY="-33" frameWidth="1094" frameHeight="686"/>
+	<SubTexture name="GF THYDI flat instance 10001" x="3432" y="4395" width="1094" height="653" frameX="0" frameY="-33" frameWidth="1094" frameHeight="686"/>
+	<SubTexture name="GF THYDI flat instance 10002" x="4576" y="4395" width="1094" height="669" frameX="0" frameY="-17" frameWidth="1094" frameHeight="686"/>
+	<SubTexture name="GF THYDI flat instance 10003" x="5720" y="4395" width="1094" height="669" frameX="0" frameY="-17" frameWidth="1094" frameHeight="686"/>
+	<SubTexture name="GF THYDI flat instance 10004" x="6864" y="4395" width="1094" height="672" frameX="0" frameY="-14" frameWidth="1094" frameHeight="686"/>
+	<SubTexture name="GF THYDI flat instance 10005" x="0" y="5127" width="1094" height="672" frameX="0" frameY="-14" frameWidth="1094" frameHeight="686"/>
+	<SubTexture name="GF THYDI flat instance 10006" x="1144" y="5127" width="1094" height="682" frameX="0" frameY="-4" frameWidth="1094" frameHeight="686"/>
+	<SubTexture name="GF THYDI flat instance 10007" x="2288" y="5127" width="1094" height="686"/>
+	<SubTexture name="GF THYDI flat instance 10008" x="3432" y="5127" width="1094" height="686"/>
+	<SubTexture name="GF THYDI flat instance 10009" x="3432" y="5127" width="1094" height="686"/>
+	<SubTexture name="GF THYDI flat instance 10010" x="4576" y="5127" width="1094" height="682" frameX="0" frameY="-4" frameWidth="1094" frameHeight="686"/>
+	<SubTexture name="GF THYDI flat instance 10011" x="4576" y="5127" width="1094" height="682" frameX="0" frameY="-4" frameWidth="1094" frameHeight="686"/>
+	<SubTexture name="GF THYDI flat instance 10012" x="5720" y="5127" width="1094" height="682" frameX="0" frameY="-4" frameWidth="1094" frameHeight="686"/>
+	<SubTexture name="GF THYDI flat instance 10013" x="6864" y="5127" width="1094" height="680" frameX="0" frameY="-6" frameWidth="1094" frameHeight="686"/>
+	<SubTexture name="GF THYDI flat instance 10014" x="0" y="5863" width="1094" height="680" frameX="0" frameY="-6" frameWidth="1094" frameHeight="686"/>
+	<SubTexture name="GF THYDI flat instance 10015" x="1144" y="5863" width="1094" height="672" frameX="0" frameY="-14" frameWidth="1094" frameHeight="686"/>
+	<SubTexture name="GF THYDI flat instance 10016" x="2288" y="5863" width="1094" height="672" frameX="0" frameY="-14" frameWidth="1094" frameHeight="686"/>
+	<SubTexture name="GF THYDI flat instance 10017" x="3432" y="5863" width="1094" height="660" frameX="0" frameY="-26" frameWidth="1094" frameHeight="686"/>
+	<SubTexture name="GF THYDI flat instance 10018" x="4576" y="5863" width="1094" height="660" frameX="0" frameY="-26" frameWidth="1094" frameHeight="686"/>
+	<SubTexture name="GF THYDI flat instance 10019" x="5720" y="5863" width="1094" height="658" frameX="0" frameY="-28" frameWidth="1094" frameHeight="686"/>
+	<SubTexture name="GF THYDI flat instance 10020" x="6864" y="5863" width="1094" height="662" frameX="0" frameY="-24" frameWidth="1094" frameHeight="686"/>
+	<SubTexture name="GF THYDI flat instance 10021" x="0" y="6593" width="1094" height="662" frameX="0" frameY="-24" frameWidth="1094" frameHeight="686"/>
+	<SubTexture name="GF THYDI flat instance 10022" x="1144" y="6593" width="1094" height="662" frameX="0" frameY="-24" frameWidth="1094" frameHeight="686"/>
+	<SubTexture name="GF THYDI flat instance 10023" x="1144" y="6593" width="1094" height="662" frameX="0" frameY="-24" frameWidth="1094" frameHeight="686"/>
+	<SubTexture name="GF THYDI flat instance 10024" x="2288" y="6593" width="1094" height="662" frameX="0" frameY="-24" frameWidth="1094" frameHeight="686"/>
+	<SubTexture name="GF THYDI flat instance 10025" x="2288" y="6593" width="1094" height="662" frameX="0" frameY="-24" frameWidth="1094" frameHeight="686"/>
+	<SubTexture name="GF THYDI flat instance 10026" x="3432" y="6593" width="1094" height="662" frameX="0" frameY="-24" frameWidth="1094" frameHeight="686"/>
+	<SubTexture name="GF THYDI flat instance 10027" x="3432" y="6593" width="1094" height="662" frameX="0" frameY="-24" frameWidth="1094" frameHeight="686"/>
+	<SubTexture name="GF THYDI flat instance 10028" x="4576" y="6593" width="1094" height="676" frameX="0" frameY="-10" frameWidth="1094" frameHeight="686"/>
+	<SubTexture name="GF THYDI flat instance 10029" x="4576" y="6593" width="1094" height="676" frameX="0" frameY="-10" frameWidth="1094" frameHeight="686"/>
+</TextureAtlas>

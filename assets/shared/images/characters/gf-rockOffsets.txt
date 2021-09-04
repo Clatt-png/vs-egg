@@ -1,0 +1,6 @@
+cheer 0 13
+sad 0 -9
+danceLeft 0 4
+danceRight 0 4
+wheredidyougetthat 0 -13
+okaythen 0 -10

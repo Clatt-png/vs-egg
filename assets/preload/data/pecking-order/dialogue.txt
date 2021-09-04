@@ -1,0 +1,63 @@
+:bg:1
+:startvoice:voicelines/scene1_1
+:gfnormal:Ahhh. This is nice. 
+:stopvoice:
+:startvoice:voicelines/scene1_2
+:bfnormal:Yeah! Just a peaceful romantic walk through the park with my Girlfrie-
+:stopvoice:
+:bg:2
+:startvoice:voicelines/scene1_3
+:gfshock:HOLY CRAP IS THAT A GIANT EGG!?
+:stopvoice:
+:startvoice:voicelines/scene1_4
+:bfshock:what
+:stopvoice:
+:bg:3
+:startvoice:voicelines/scene1_5
+:bfshock:Oh wow this is pretty big...
+:stopvoice:
+:startvoice:voicelines/scene1_6
+:gfworried:Wait but wheres the momma? Oh My GOD are you lost! You poor thing!
+:stopvoice:
+:startvoice:voicelines/scene1_7
+:bfnormal:Should we call animal control?
+:stopvoice:
+:startvoice:voicelines/scene1_8
+:gfworried:wHY would we ever call those MONSTERS.
+:stopvoice:
+:startvoice:voicelines/scene1_9
+:bfshock:wh-
+:stopvoice:
+:startvoice:voicelines/scene1_10
+:gfworried:We need to take care of this poor little thing till its mama comes for it!
+:stopvoice:
+:startvoice:voicelines/scene1_11
+:bfnormal:Babe I know Im as dumb as a rock but I know for a fact we arent qualified to take care of anything that comes out of an egg.
+:stopvoice:
+:startvoice:voicelines/scene1_12
+:gfworried:Speak for yourself! I have maternal instincts~.
+:stopvoice:
+:startvoice:voicelines/scene1_13
+:bfshock:that is an EGG
+:stopvoice:
+:startvoice:voicelines/scene1_14
+:egg2: *tap tap*
+:stopvoice:
+:startvoice:voicelines/scene1_15
+:bfshock:w  H AT
+:stopvoice:
+:startvoice:voicelines/scene1_16
+:gfnormal:OMG!!
+:stopvoice:
+:startvoice:voicelines/scene1_17
+:egg2:*tap tap*
+:stopvoice:
+:startvoice:voicelines/scene1_18
+:bfnormal:Is this a challenge?
+:stopvoice:
+:startvoice:voicelines/scene1_19
+:egg2: *tap tap*
+:stopvoice:
+:startvoice:voicelines/scene1_20
+:bfnormal:Oh its on!
+:stopvoice:

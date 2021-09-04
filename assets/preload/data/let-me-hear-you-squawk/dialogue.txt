@@ -1,0 +1,18 @@
+:startvoice:voicelines/scene3_1
+:bfhappy:THAT. Was crazy! You wanna go another round buddy?
+:stopvoice:
+:startvoice:voicelines/scene3_2
+:gfworried:Aw baby, they look so tired. 
+:stopvoice:
+:startvoice:voicelines/scene3_3
+:bfworried:Oh yeah hes kinda swaying
+:stopvoice:
+:startvoice:voicelines/scene3_4
+:gfnormal:Hatching does take a lot of energy Maybe you should sing them a little lullaby!
+:stopvoice:
+:startvoice:voicelines/scene3_5
+:bfnormal:Is that what you want, little guy?
+:stopvoice:
+:startvoice:voicelines/scene3_6
+:egg:sqwwaarrkk
+:stopvoice:

@@ -1,0 +1,21 @@
+:startvoice:voicelines/scene2_1
+:gfnormal:Look! Its hatching!
+:stopvoice:
+:startvoice:voicelines/scene2_2
+:egg:Squawk!
+:stopvoice:
+:startvoice:voicelines/scene2_3
+:egg:Squaw Squawk!
+:stopvoice:
+:startvoice:voicelines/scene2_4
+:gfnormal:Oh yeah?
+:stopvoice:
+:startvoice:voicelines/scene2_5
+:egg:Bawk bawk squawk!
+:stopvoice:
+:startvoice:voicelines/scene2_6
+:gfnormal:Wowwwww
+:stopvoice:
+:startvoice:voicelines/scene2_7
+:bfworried:I can barely hear you buddy, hold on
+:stopvoice:

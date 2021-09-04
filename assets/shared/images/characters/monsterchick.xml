@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="monsterchick.png">
+	<!-- Created with Adobe Animate version 21.0.7.42652 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="MC_down instance 10000" x="0" y="0" width="784" height="737" frameX="0" frameY="0" frameWidth="795" frameHeight="738"/>
+	<SubTexture name="MC_down instance 10001" x="0" y="0" width="784" height="737" frameX="0" frameY="0" frameWidth="795" frameHeight="738"/>
+	<SubTexture name="MC_down instance 10002" x="784" y="0" width="794" height="735" frameX="-1" frameY="-3" frameWidth="795" frameHeight="738"/>
+	<SubTexture name="MC_down instance 10003" x="784" y="0" width="794" height="735" frameX="-1" frameY="-3" frameWidth="795" frameHeight="738"/>
+	<SubTexture name="MC_down instance 10004" x="784" y="0" width="794" height="735" frameX="-1" frameY="-3" frameWidth="795" frameHeight="738"/>
+	<SubTexture name="MC_down instance 10005" x="784" y="0" width="794" height="735" frameX="-1" frameY="-3" frameWidth="795" frameHeight="738"/>
+	<SubTexture name="MC_down instance 10006" x="784" y="0" width="794" height="735" frameX="-1" frameY="-3" frameWidth="795" frameHeight="738"/>
+	<SubTexture name="MC_down instance 10007" x="784" y="0" width="794" height="735" frameX="-1" frameY="-3" frameWidth="795" frameHeight="738"/>
+	<SubTexture name="MC_down instance 10008" x="784" y="0" width="794" height="735" frameX="-1" frameY="-3" frameWidth="795" frameHeight="738"/>
+	<SubTexture name="MC_down instance 10009" x="784" y="0" width="794" height="735" frameX="-1" frameY="-3" frameWidth="795" frameHeight="738"/>
+	<SubTexture name="MC_down instance 10010" x="784" y="0" width="794" height="735" frameX="-1" frameY="-3" frameWidth="795" frameHeight="738"/>
+	<SubTexture name="MC_down instance 10011" x="784" y="0" width="794" height="735" frameX="-1" frameY="-3" frameWidth="795" frameHeight="738"/>
+	<SubTexture name="MC_down instance 10012" x="784" y="0" width="794" height="735" frameX="-1" frameY="-3" frameWidth="795" frameHeight="738"/>
+	<SubTexture name="MC_down instance 10013" x="784" y="0" width="794" height="735" frameX="-1" frameY="-3" frameWidth="795" frameHeight="738"/>
+	<SubTexture name="MC_idle instance 10000" x="1578" y="0" width="815" height="820" frameX="0" frameY="-88" frameWidth="815" frameHeight="912"/>
+	<SubTexture name="MC_idle instance 10001" x="1578" y="0" width="815" height="820" frameX="0" frameY="-88" frameWidth="815" frameHeight="912"/>
+	<SubTexture name="MC_idle instance 10002" x="2393" y="0" width="740" height="850" frameX="-16" frameY="-62" frameWidth="815" frameHeight="912"/>
+	<SubTexture name="MC_idle instance 10003" x="2393" y="0" width="740" height="850" frameX="-16" frameY="-62" frameWidth="815" frameHeight="912"/>
+	<SubTexture name="MC_idle instance 10004" x="3133" y="0" width="649" height="911" frameX="-22" frameY="0" frameWidth="815" frameHeight="912"/>
+	<SubTexture name="MC_idle instance 10005" x="3133" y="0" width="649" height="911" frameX="-22" frameY="0" frameWidth="815" frameHeight="912"/>
+	<SubTexture name="MC_idle instance 10006" x="3782" y="0" width="678" height="901" frameX="-16" frameY="-8" frameWidth="815" frameHeight="912"/>
+	<SubTexture name="MC_idle instance 10007" x="3782" y="0" width="678" height="901" frameX="-16" frameY="-8" frameWidth="815" frameHeight="912"/>
+	<SubTexture name="MC_idle instance 10008" x="4460" y="0" width="691" height="880" frameX="-8" frameY="-30" frameWidth="815" frameHeight="912"/>
+	<SubTexture name="MC_idle instance 10009" x="4460" y="0" width="691" height="880" frameX="-8" frameY="-30" frameWidth="815" frameHeight="912"/>
+	<SubTexture name="MC_idle instance 10010" x="5151" y="0" width="707" height="876" frameX="-8" frameY="-34" frameWidth="815" frameHeight="912"/>
+	<SubTexture name="MC_idle instance 10011" x="5151" y="0" width="707" height="876" frameX="-8" frameY="-34" frameWidth="815" frameHeight="912"/>
+	<SubTexture name="MC_idle instance 10012" x="5151" y="0" width="707" height="876" frameX="-8" frameY="-34" frameWidth="815" frameHeight="912"/>
+	<SubTexture name="MC_idle instance 10013" x="5151" y="0" width="707" height="876" frameX="-8" frameY="-34" frameWidth="815" frameHeight="912"/>
+	<SubTexture name="MC_left instance 10000" x="5858" y="0" width="726" height="784" frameX="-1" frameY="-5" frameWidth="739" frameHeight="789"/>
+	<SubTexture name="MC_left instance 10001" x="5858" y="0" width="726" height="784" frameX="-1" frameY="-5" frameWidth="739" frameHeight="789"/>
+	<SubTexture name="MC_left instance 10002" x="6584" y="0" width="739" height="789"/>
+	<SubTexture name="MC_left instance 10003" x="6584" y="0" width="739" height="789"/>
+	<SubTexture name="MC_left instance 10004" x="6584" y="0" width="739" height="789"/>
+	<SubTexture name="MC_left instance 10005" x="6584" y="0" width="739" height="789"/>
+	<SubTexture name="MC_left instance 10006" x="6584" y="0" width="739" height="789"/>
+	<SubTexture name="MC_left instance 10007" x="6584" y="0" width="739" height="789"/>
+	<SubTexture name="MC_left instance 10008" x="6584" y="0" width="739" height="789"/>
+	<SubTexture name="MC_left instance 10009" x="6584" y="0" width="739" height="789"/>
+	<SubTexture name="MC_left instance 10010" x="6584" y="0" width="739" height="789"/>
+	<SubTexture name="MC_left instance 10011" x="6584" y="0" width="739" height="789"/>
+	<SubTexture name="MC_left instance 10012" x="6584" y="0" width="739" height="789"/>
+	<SubTexture name="MC_left instance 10013" x="6584" y="0" width="739" height="789"/>
+	<SubTexture name="MC_right instance 10000" x="0" y="911" width="936" height="710" frameX="0" frameY="-1" frameWidth="936" frameHeight="713"/>
+	<SubTexture name="MC_right instance 10001" x="0" y="911" width="936" height="710" frameX="0" frameY="-1" frameWidth="936" frameHeight="713"/>
+	<SubTexture name="MC_right instance 10002" x="936" y="911" width="874" height="713" frameX="-19" frameY="0" frameWidth="936" frameHeight="713"/>
+	<SubTexture name="MC_right instance 10003" x="936" y="911" width="874" height="713" frameX="-19" frameY="0" frameWidth="936" frameHeight="713"/>
+	<SubTexture name="MC_right instance 10004" x="936" y="911" width="874" height="713" frameX="-19" frameY="0" frameWidth="936" frameHeight="713"/>
+	<SubTexture name="MC_right instance 10005" x="936" y="911" width="874" height="713" frameX="-19" frameY="0" frameWidth="936" frameHeight="713"/>
+	<SubTexture name="MC_right instance 10006" x="936" y="911" width="874" height="713" frameX="-19" frameY="0" frameWidth="936" frameHeight="713"/>
+	<SubTexture name="MC_right instance 10007" x="936" y="911" width="874" height="713" frameX="-19" frameY="0" frameWidth="936" frameHeight="713"/>
+	<SubTexture name="MC_right instance 10008" x="936" y="911" width="874" height="713" frameX="-19" frameY="0" frameWidth="936" frameHeight="713"/>
+	<SubTexture name="MC_right instance 10009" x="936" y="911" width="874" height="713" frameX="-19" frameY="0" frameWidth="936" frameHeight="713"/>
+	<SubTexture name="MC_right instance 10010" x="936" y="911" width="874" height="713" frameX="-19" frameY="0" frameWidth="936" frameHeight="713"/>
+	<SubTexture name="MC_right instance 10011" x="936" y="911" width="874" height="713" frameX="-19" frameY="0" frameWidth="936" frameHeight="713"/>
+	<SubTexture name="MC_right instance 10012" x="936" y="911" width="874" height="713" frameX="-19" frameY="0" frameWidth="936" frameHeight="713"/>
+	<SubTexture name="MC_right instance 10013" x="936" y="911" width="874" height="713" frameX="-19" frameY="0" frameWidth="936" frameHeight="713"/>
+	<SubTexture name="MC_spit instance 10000" x="4647" y="4364" width="703" height="869" frameX="-3" frameY="0" frameWidth="2397" frameHeight="1052"/>
+	<SubTexture name="MC_spit instance 10001" x="4647" y="4364" width="703" height="869" frameX="-3" frameY="0" frameWidth="2397" frameHeight="1052"/>
+	<SubTexture name="MC_spit instance 10002" x="5350" y="4364" width="703" height="859" frameX="-3" frameY="-11" frameWidth="2397" frameHeight="1052"/>
+	<SubTexture name="MC_spit instance 10003" x="5350" y="4364" width="703" height="859" frameX="-3" frameY="-11" frameWidth="2397" frameHeight="1052"/>
+	<SubTexture name="MC_spit instance 10004" x="6053" y="4364" width="703" height="862" frameX="-3" frameY="-10" frameWidth="2397" frameHeight="1052"/>
+	<SubTexture name="MC_spit instance 10005" x="6053" y="4364" width="703" height="862" frameX="-3" frameY="-10" frameWidth="2397" frameHeight="1052"/>
+	<SubTexture name="MC_spit instance 10006" x="6756" y="4364" width="703" height="861" frameX="-3" frameY="-11" frameWidth="2397" frameHeight="1052"/>
+	<SubTexture name="MC_spit instance 10007" x="6756" y="4364" width="703" height="861" frameX="-3" frameY="-11" frameWidth="2397" frameHeight="1052"/>
+	<SubTexture name="MC_spit instance 10008" x="1810" y="911" width="756" height="820" frameX="0" frameY="-46" frameWidth="2396" frameHeight="1051"/>
+	<SubTexture name="MC_spit instance 10009" x="2566" y="911" width="828" height="820" frameX="0" frameY="-46" frameWidth="2396" frameHeight="1051"/>
+	<SubTexture name="MC_spit instance 10010" x="3394" y="911" width="1002" height="792" frameX="-1" frameY="-76" frameWidth="2396" frameHeight="1051"/>
+	<SubTexture name="MC_spit instance 10011" x="4396" y="911" width="1223" height="792" frameX="-1" frameY="-76" frameWidth="2396" frameHeight="1051"/>
+	<SubTexture name="MC_spit instance 10012" x="5619" y="911" width="1441" height="792" frameX="-1" frameY="-76" frameWidth="2396" frameHeight="1051"/>
+	<SubTexture name="MC_spit instance 10013" x="0" y="1731" width="1656" height="792" frameX="-1" frameY="-76" frameWidth="2396" frameHeight="1051"/>
+	<SubTexture name="MC_spit instance 10014" x="1656" y="1731" width="1873" height="792" frameX="-1" frameY="-76" frameWidth="2396" frameHeight="1051"/>
+	<SubTexture name="MC_spit instance 10015" x="3529" y="1731" width="2055" height="792" frameX="-1" frameY="-76" frameWidth="2396" frameHeight="1051"/>
+	<SubTexture name="MC_spit instance 10016" x="5584" y="1731" width="2252" height="866" frameX="-1" frameY="-76" frameWidth="2396" frameHeight="1051"/>
+	<SubTexture name="MC_spit instance 10017" x="0" y="2597" width="2395" height="975" frameX="-1" frameY="-76" frameWidth="2396" frameHeight="1051"/>
+	<SubTexture name="MC_spit instance 10018" x="0" y="2597" width="2395" height="975" frameX="-1" frameY="-76" frameWidth="2396" frameHeight="1051"/>
+	<SubTexture name="MC_spit instance 10019" x="0" y="2597" width="2395" height="975" frameX="-1" frameY="-76" frameWidth="2396" frameHeight="1051"/>
+	<SubTexture name="MC_spit2 instance 10000" x="2395" y="2597" width="703" height="869" frameX="-4" frameY="0" frameWidth="2397" frameHeight="1052"/>
+	<SubTexture name="MC_spit2 instance 10001" x="2395" y="2597" width="703" height="869" frameX="-4" frameY="0" frameWidth="2397" frameHeight="1052"/>
+	<SubTexture name="MC_spit2 instance 10002" x="5350" y="4364" width="703" height="859" frameX="-4" frameY="-12" frameWidth="2397" frameHeight="1052"/>
+	<SubTexture name="MC_spit2 instance 10003" x="5350" y="4364" width="703" height="859" frameX="-4" frameY="-12" frameWidth="2397" frameHeight="1052"/>
+	<SubTexture name="MC_spit2 instance 10004" x="6053" y="4364" width="703" height="862" frameX="-4" frameY="-10" frameWidth="2397" frameHeight="1052"/>
+	<SubTexture name="MC_spit2 instance 10005" x="6053" y="4364" width="703" height="862" frameX="-4" frameY="-10" frameWidth="2397" frameHeight="1052"/>
+	<SubTexture name="MC_spit2 instance 10006" x="6756" y="4364" width="703" height="861" frameX="-4" frameY="-11" frameWidth="2397" frameHeight="1052"/>
+	<SubTexture name="MC_spit2 instance 10007" x="6756" y="4364" width="703" height="861" frameX="-4" frameY="-11" frameWidth="2397" frameHeight="1052"/>
+	<SubTexture name="MC_spit2 instance 10008" x="3098" y="2597" width="757" height="820" frameX="0" frameY="-46" frameWidth="2397" frameHeight="1052"/>
+	<SubTexture name="MC_spit2 instance 10009" x="3855" y="2597" width="828" height="820" frameX="0" frameY="-46" frameWidth="2397" frameHeight="1052"/>
+	<SubTexture name="MC_spit2 instance 10010" x="4683" y="2597" width="1002" height="792" frameX="-2" frameY="-76" frameWidth="2397" frameHeight="1052"/>
+	<SubTexture name="MC_spit2 instance 10011" x="5685" y="2597" width="1223" height="792" frameX="-2" frameY="-76" frameWidth="2397" frameHeight="1052"/>
+	<SubTexture name="MC_spit2 instance 10012" x="0" y="3572" width="1441" height="792" frameX="-2" frameY="-76" frameWidth="2397" frameHeight="1052"/>
+	<SubTexture name="MC_spit2 instance 10013" x="1441" y="3572" width="1656" height="792" frameX="-2" frameY="-76" frameWidth="2397" frameHeight="1052"/>
+	<SubTexture name="MC_spit2 instance 10014" x="3097" y="3572" width="1873" height="792" frameX="-2" frameY="-76" frameWidth="2397" frameHeight="1052"/>
+	<SubTexture name="MC_spit2 instance 10015" x="4970" y="3572" width="2055" height="792" frameX="-2" frameY="-76" frameWidth="2397" frameHeight="1052"/>
+	<SubTexture name="MC_spit2 instance 10016" x="0" y="4364" width="2252" height="866" frameX="-2" frameY="-76" frameWidth="2397" frameHeight="1052"/>
+	<SubTexture name="MC_spit2 instance 10017" x="2252" y="4364" width="2395" height="976" frameX="-2" frameY="-76" frameWidth="2397" frameHeight="1052"/>
+	<SubTexture name="MC_spit2 instance 10018" x="2252" y="4364" width="2395" height="976" frameX="-2" frameY="-76" frameWidth="2397" frameHeight="1052"/>
+	<SubTexture name="MC_spit2 instance 10019" x="2252" y="4364" width="2395" height="976" frameX="-2" frameY="-76" frameWidth="2397" frameHeight="1052"/>
+	<SubTexture name="MC_spit3 instance 10000" x="4647" y="4364" width="703" height="869" frameX="-4" frameY="0" frameWidth="2397" frameHeight="1052"/>
+	<SubTexture name="MC_spit3 instance 10001" x="4647" y="4364" width="703" height="869" frameX="-4" frameY="0" frameWidth="2397" frameHeight="1052"/>
+	<SubTexture name="MC_spit3 instance 10002" x="5350" y="4364" width="703" height="859" frameX="-4" frameY="-12" frameWidth="2397" frameHeight="1052"/>
+	<SubTexture name="MC_spit3 instance 10003" x="5350" y="4364" width="703" height="859" frameX="-4" frameY="-12" frameWidth="2397" frameHeight="1052"/>
+	<SubTexture name="MC_spit3 instance 10004" x="6053" y="4364" width="703" height="862" frameX="-4" frameY="-10" frameWidth="2397" frameHeight="1052"/>
+	<SubTexture name="MC_spit3 instance 10005" x="6053" y="4364" width="703" height="862" frameX="-4" frameY="-10" frameWidth="2397" frameHeight="1052"/>
+	<SubTexture name="MC_spit3 instance 10006" x="6756" y="4364" width="703" height="861" frameX="-4" frameY="-11" frameWidth="2397" frameHeight="1052"/>
+	<SubTexture name="MC_spit3 instance 10007" x="6756" y="4364" width="703" height="861" frameX="-4" frameY="-11" frameWidth="2397" frameHeight="1052"/>
+	<SubTexture name="MC_spit3 instance 10008" x="0" y="5340" width="757" height="820" frameX="0" frameY="-46" frameWidth="2397" frameHeight="1052"/>
+	<SubTexture name="MC_spit3 instance 10009" x="757" y="5340" width="828" height="820" frameX="0" frameY="-46" frameWidth="2397" frameHeight="1052"/>
+	<SubTexture name="MC_spit3 instance 10010" x="1585" y="5340" width="1002" height="792" frameX="-2" frameY="-76" frameWidth="2397" frameHeight="1052"/>
+	<SubTexture name="MC_spit3 instance 10011" x="2587" y="5340" width="1223" height="792" frameX="-2" frameY="-76" frameWidth="2397" frameHeight="1052"/>
+	<SubTexture name="MC_spit3 instance 10012" x="3810" y="5340" width="1441" height="792" frameX="-2" frameY="-76" frameWidth="2397" frameHeight="1052"/>
+	<SubTexture name="MC_spit3 instance 10013" x="5251" y="5340" width="1656" height="792" frameX="-2" frameY="-76" frameWidth="2397" frameHeight="1052"/>
+	<SubTexture name="MC_spit3 instance 10014" x="0" y="6160" width="1873" height="792" frameX="-2" frameY="-76" frameWidth="2397" frameHeight="1052"/>
+	<SubTexture name="MC_spit3 instance 10015" x="1873" y="6160" width="2055" height="792" frameX="-2" frameY="-76" frameWidth="2397" frameHeight="1052"/>
+	<SubTexture name="MC_spit3 instance 10016" x="3928" y="6160" width="2252" height="866" frameX="-2" frameY="-76" frameWidth="2397" frameHeight="1052"/>
+	<SubTexture name="MC_spit3 instance 10017" x="0" y="7026" width="2395" height="976" frameX="-2" frameY="-76" frameWidth="2397" frameHeight="1052"/>
+	<SubTexture name="MC_spit3 instance 10018" x="0" y="7026" width="2395" height="976" frameX="-2" frameY="-76" frameWidth="2397" frameHeight="1052"/>
+	<SubTexture name="MC_spit3 instance 10019" x="0" y="7026" width="2395" height="976" frameX="-2" frameY="-76" frameWidth="2397" frameHeight="1052"/>
+	<SubTexture name="MC_up instance 10000" x="2395" y="7026" width="694" height="920" frameX="-9" frameY="0" frameWidth="724" frameHeight="920"/>
+	<SubTexture name="MC_up instance 10001" x="2395" y="7026" width="694" height="920" frameX="-9" frameY="0" frameWidth="724" frameHeight="920"/>
+	<SubTexture name="MC_up instance 10002" x="3089" y="7026" width="724" height="863" frameX="0" frameY="-54" frameWidth="724" frameHeight="920"/>
+	<SubTexture name="MC_up instance 10003" x="3089" y="7026" width="724" height="863" frameX="0" frameY="-54" frameWidth="724" frameHeight="920"/>
+	<SubTexture name="MC_up instance 10004" x="3089" y="7026" width="724" height="863" frameX="0" frameY="-54" frameWidth="724" frameHeight="920"/>
+	<SubTexture name="MC_up instance 10005" x="3089" y="7026" width="724" height="863" frameX="0" frameY="-54" frameWidth="724" frameHeight="920"/>
+	<SubTexture name="MC_up instance 10006" x="3089" y="7026" width="724" height="863" frameX="0" frameY="-54" frameWidth="724" frameHeight="920"/>
+	<SubTexture name="MC_up instance 10007" x="3089" y="7026" width="724" height="863" frameX="0" frameY="-54" frameWidth="724" frameHeight="920"/>
+	<SubTexture name="MC_up instance 10008" x="3089" y="7026" width="724" height="863" frameX="0" frameY="-54" frameWidth="724" frameHeight="920"/>
+	<SubTexture name="MC_up instance 10009" x="3089" y="7026" width="724" height="863" frameX="0" frameY="-54" frameWidth="724" frameHeight="920"/>
+	<SubTexture name="MC_up instance 10010" x="3089" y="7026" width="724" height="863" frameX="0" frameY="-54" frameWidth="724" frameHeight="920"/>
+	<SubTexture name="MC_up instance 10011" x="3089" y="7026" width="724" height="863" frameX="0" frameY="-54" frameWidth="724" frameHeight="920"/>
+	<SubTexture name="MC_up instance 10012" x="3089" y="7026" width="724" height="863" frameX="0" frameY="-54" frameWidth="724" frameHeight="920"/>
+	<SubTexture name="MC_up instance 10013" x="3089" y="7026" width="724" height="863" frameX="0" frameY="-54" frameWidth="724" frameHeight="920"/>
+</TextureAtlas>

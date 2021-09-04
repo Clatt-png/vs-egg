@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="EggPhase2_v2.png">
+	<!-- Created with Adobe Animate version 21.0.8.42666 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="MB_BreakingOut instance 10000" x="0" y="0" width="661" height="553" frameX="-182" frameY="-270" frameWidth="843" frameHeight="847"/>
+	<SubTexture name="MB_BreakingOut instance 10001" x="0" y="0" width="661" height="553" frameX="-182" frameY="-270" frameWidth="843" frameHeight="847"/>
+	<SubTexture name="MB_BreakingOut instance 10002" x="711" y="0" width="668" height="728" frameX="-175" frameY="-118" frameWidth="843" frameHeight="847"/>
+	<SubTexture name="MB_BreakingOut instance 10003" x="711" y="0" width="668" height="728" frameX="-175" frameY="-118" frameWidth="843" frameHeight="847"/>
+	<SubTexture name="MB_BreakingOut instance 10004" x="1429" y="0" width="671" height="789" frameX="-172" frameY="-58" frameWidth="843" frameHeight="847"/>
+	<SubTexture name="MB_BreakingOut instance 10005" x="1429" y="0" width="671" height="789" frameX="-172" frameY="-58" frameWidth="843" frameHeight="847"/>
+	<SubTexture name="MB_BreakingOut instance 10006" x="2150" y="0" width="710" height="821" frameX="-133" frameY="-26" frameWidth="843" frameHeight="847"/>
+	<SubTexture name="MB_BreakingOut instance 10007" x="2150" y="0" width="710" height="821" frameX="-133" frameY="-26" frameWidth="843" frameHeight="847"/>
+	<SubTexture name="MB_BreakingOut instance 10008" x="2910" y="0" width="730" height="836" frameX="-113" frameY="-10" frameWidth="843" frameHeight="847"/>
+	<SubTexture name="MB_BreakingOut instance 10009" x="2910" y="0" width="730" height="836" frameX="-113" frameY="-10" frameWidth="843" frameHeight="847"/>
+	<SubTexture name="MB_BreakingOut instance 10010" x="3690" y="0" width="739" height="843" frameX="-104" frameY="-3" frameWidth="843" frameHeight="847"/>
+	<SubTexture name="MB_BreakingOut instance 10011" x="3690" y="0" width="739" height="843" frameX="-104" frameY="-3" frameWidth="843" frameHeight="847"/>
+	<SubTexture name="MB_BreakingOut instance 10012" x="4479" y="0" width="742" height="845" frameX="-101" frameY="-1" frameWidth="843" frameHeight="847"/>
+	<SubTexture name="MB_BreakingOut instance 10013" x="4479" y="0" width="742" height="845" frameX="-101" frameY="-1" frameWidth="843" frameHeight="847"/>
+	<SubTexture name="MB_BreakingOut instance 10014" x="5271" y="0" width="743" height="846" frameX="-100" frameY="0" frameWidth="843" frameHeight="847"/>
+	<SubTexture name="MB_BreakingOut instance 10015" x="5271" y="0" width="743" height="846" frameX="-100" frameY="0" frameWidth="843" frameHeight="847"/>
+	<SubTexture name="MB_BreakingOut instance 10016" x="6064" y="0" width="743" height="846" frameX="-100" frameY="0" frameWidth="843" frameHeight="847"/>
+	<SubTexture name="MB_BreakingOut instance 10017" x="6064" y="0" width="743" height="846" frameX="-100" frameY="0" frameWidth="843" frameHeight="847"/>
+	<SubTexture name="MB_BreakingOut instance 10018" x="6857" y="0" width="743" height="846" frameX="-100" frameY="0" frameWidth="843" frameHeight="847"/>
+	<SubTexture name="MB_BreakingOut instance 10019" x="6857" y="0" width="743" height="846" frameX="-100" frameY="0" frameWidth="843" frameHeight="847"/>
+	<SubTexture name="MB_BreakingOut instance 10020" x="6857" y="0" width="743" height="846" frameX="-100" frameY="0" frameWidth="843" frameHeight="847"/>
+	<SubTexture name="MB_BreakingOut instance 10021" x="6857" y="0" width="743" height="846" frameX="-100" frameY="0" frameWidth="843" frameHeight="847"/>
+	<SubTexture name="MB_BreakingOut instance 10022" x="6857" y="0" width="743" height="846" frameX="-100" frameY="0" frameWidth="843" frameHeight="847"/>
+	<SubTexture name="MB_BreakingOut instance 10023" x="0" y="896" width="755" height="815" frameX="-88" frameY="-31" frameWidth="843" frameHeight="847"/>
+	<SubTexture name="MB_BreakingOut instance 10024" x="0" y="896" width="755" height="815" frameX="-88" frameY="-31" frameWidth="843" frameHeight="847"/>
+	<SubTexture name="MB_BreakingOut instance 10025" x="805" y="896" width="768" height="761" frameX="-75" frameY="-85" frameWidth="843" frameHeight="847"/>
+	<SubTexture name="MB_BreakingOut instance 10026" x="805" y="896" width="768" height="761" frameX="-75" frameY="-85" frameWidth="843" frameHeight="847"/>
+	<SubTexture name="MB_BreakingOut instance 10027" x="1623" y="896" width="815" height="804" frameX="-28" frameY="-42" frameWidth="843" frameHeight="847"/>
+	<SubTexture name="MB_BreakingOut instance 10028" x="2488" y="896" width="815" height="804" frameX="-28" frameY="-42" frameWidth="843" frameHeight="847"/>
+	<SubTexture name="MB_BreakingOut instance 10029" x="3353" y="896" width="843" height="810" frameX="0" frameY="-36" frameWidth="843" frameHeight="847"/>
+	<SubTexture name="MB_BreakingOut instance 10030" x="3353" y="896" width="843" height="810" frameX="0" frameY="-36" frameWidth="843" frameHeight="847"/>
+	<SubTexture name="MB_BreakingOut instance 10031" x="3353" y="896" width="843" height="810" frameX="0" frameY="-36" frameWidth="843" frameHeight="847"/>
+	<SubTexture name="MB_CrackingUp instance 10000" x="4246" y="896" width="632" height="629"/>
+	<SubTexture name="MB_CrackingUp instance 10001" x="4928" y="896" width="632" height="629"/>
+	<SubTexture name="MB_CrackingUp instance 10002" x="5610" y="896" width="632" height="629"/>
+	<SubTexture name="MB_CrackingUp instance 10003" x="6292" y="896" width="632" height="629"/>
+	<SubTexture name="MB_CrackingUp instance 10004" x="6974" y="896" width="632" height="629"/>
+	<SubTexture name="MB_CrackingUp instance 10005" x="6974" y="896" width="632" height="629"/>
+	<SubTexture name="MB_CrackingUp instance 10006" x="6974" y="896" width="632" height="629"/>
+	<SubTexture name="MB_CrackingUp instance 10007" x="0" y="1761" width="632" height="629"/>
+	<SubTexture name="MB_CrackingUp instance 10008" x="0" y="1761" width="632" height="629"/>
+	<SubTexture name="MB_CrackingUp instance 10009" x="0" y="1761" width="632" height="629"/>
+	<SubTexture name="MB_CrackingUp instance 10010" x="682" y="1761" width="632" height="629"/>
+	<SubTexture name="MB_CrackingUp instance 10011" x="682" y="1761" width="632" height="629"/>
+	<SubTexture name="MB_CrackingUp instance 10012" x="682" y="1761" width="632" height="629"/>
+	<SubTexture name="MB_CrackingUp instance 10013" x="1364" y="1761" width="632" height="629"/>
+	<SubTexture name="MB_CrackingUp instance 10014" x="1364" y="1761" width="632" height="629"/>
+	<SubTexture name="MB_CrackingUp instance 10015" x="1364" y="1761" width="632" height="629"/>
+	<SubTexture name="MB_CrackingUp instance 10016" x="2046" y="1761" width="632" height="629"/>
+	<SubTexture name="MB_CrackingUp instance 10017" x="2046" y="1761" width="632" height="629"/>
+	<SubTexture name="MB_CrackingUp instance 10018" x="2046" y="1761" width="632" height="629"/>
+	<SubTexture name="MB_CrackingUp instance 10019" x="2728" y="1761" width="632" height="629"/>
+	<SubTexture name="MB_CrackingUp instance 10020" x="2728" y="1761" width="632" height="629"/>
+	<SubTexture name="MB_CrackingUp instance 10021" x="2728" y="1761" width="632" height="629"/>
+	<SubTexture name="MB_CrackingUp instance 10022" x="2728" y="1761" width="632" height="629"/>
+	<SubTexture name="MB_CrackingUp instance 10023" x="2728" y="1761" width="632" height="629"/>
+	<SubTexture name="MB_CrackingUp instance 10024" x="2728" y="1761" width="632" height="629"/>
+	<SubTexture name="MB_CrackingUp instance 10025" x="2728" y="1761" width="632" height="629"/>
+	<SubTexture name="MB_CrackingUp instance 10026" x="2728" y="1761" width="632" height="629"/>
+	<SubTexture name="MB_CrackingUp instance 10027" x="2728" y="1761" width="632" height="629"/>
+	<SubTexture name="MB_CrackingUp instance 10028" x="2728" y="1761" width="632" height="629"/>
+	<SubTexture name="MB_CrackingUp instance 10029" x="2728" y="1761" width="632" height="629"/>
+	<SubTexture name="MB_CrackingUp instance 10030" x="2728" y="1761" width="632" height="629"/>
+	<SubTexture name="MB_CrackingUp instance 10031" x="2728" y="1761" width="632" height="629"/>
+	<SubTexture name="MB_EgghitbyMic instance 10000" x="3410" y="1761" width="484" height="599" frameX="-33" frameY="0" frameWidth="2135" frameHeight="632"/>
+	<SubTexture name="MB_EgghitbyMic instance 10001" x="3410" y="1761" width="484" height="599" frameX="-33" frameY="0" frameWidth="2135" frameHeight="632"/>
+	<SubTexture name="MB_EgghitbyMic instance 10002" x="3944" y="1761" width="2102" height="599" frameX="-33" frameY="0" frameWidth="2135" frameHeight="632"/>
+	<SubTexture name="MB_EgghitbyMic instance 10003" x="3944" y="1761" width="2102" height="599" frameX="-33" frameY="0" frameWidth="2135" frameHeight="632"/>
+	<SubTexture name="MB_EgghitbyMic instance 10004" x="6096" y="1761" width="1323" height="599" frameX="-33" frameY="0" frameWidth="2135" frameHeight="632"/>
+	<SubTexture name="MB_EgghitbyMic instance 10005" x="6096" y="1761" width="1323" height="599" frameX="-33" frameY="0" frameWidth="2135" frameHeight="632"/>
+	<SubTexture name="MB_EgghitbyMic instance 10006" x="7469" y="1761" width="486" height="595" frameX="0" frameY="-5" frameWidth="2135" frameHeight="632"/>
+	<SubTexture name="MB_EgghitbyMic instance 10007" x="7469" y="1761" width="486" height="595" frameX="0" frameY="-5" frameWidth="2135" frameHeight="632"/>
+	<SubTexture name="MB_EgghitbyMic instance 10008" x="0" y="2440" width="483" height="599" frameX="-49" frameY="-1" frameWidth="2135" frameHeight="632"/>
+	<SubTexture name="MB_EgghitbyMic instance 10009" x="0" y="2440" width="483" height="599" frameX="-49" frameY="-1" frameWidth="2135" frameHeight="632"/>
+	<SubTexture name="MB_EgghitbyMic instance 10010" x="533" y="2440" width="557" height="598" frameX="-11" frameY="-2" frameWidth="2135" frameHeight="632"/>
+	<SubTexture name="MB_EgghitbyMic instance 10011" x="533" y="2440" width="557" height="598" frameX="-11" frameY="-2" frameWidth="2135" frameHeight="632"/>
+	<SubTexture name="MB_EgghitbyMic instance 10012" x="1140" y="2440" width="506" height="599" frameX="-35" frameY="-1" frameWidth="2135" frameHeight="632"/>
+	<SubTexture name="MB_EgghitbyMic instance 10013" x="1140" y="2440" width="506" height="599" frameX="-35" frameY="-1" frameWidth="2135" frameHeight="632"/>
+	<SubTexture name="MB_EgghitbyMic instance 10014" x="1696" y="2440" width="606" height="599" frameX="-33" frameY="0" frameWidth="2135" frameHeight="632"/>
+	<SubTexture name="MB_EgghitbyMic instance 10015" x="1696" y="2440" width="606" height="599" frameX="-33" frameY="0" frameWidth="2135" frameHeight="632"/>
+	<SubTexture name="MB_EgghitbyMic instance 10016" x="2352" y="2440" width="634" height="625" frameX="-33" frameY="0" frameWidth="2135" frameHeight="632"/>
+	<SubTexture name="MB_EgghitbyMic instance 10017" x="2352" y="2440" width="634" height="625" frameX="-33" frameY="0" frameWidth="2135" frameHeight="632"/>
+	<SubTexture name="MB_EgghitbyMic instance 10018" x="3036" y="2440" width="631" height="632" frameX="-33" frameY="0" frameWidth="2135" frameHeight="632"/>
+	<SubTexture name="MB_EgghitbyMic instance 10019" x="3036" y="2440" width="631" height="632" frameX="-33" frameY="0" frameWidth="2135" frameHeight="632"/>
+	<SubTexture name="MB_EgghitbyMic instance 10020" x="3717" y="2440" width="632" height="630" frameX="-33" frameY="0" frameWidth="2135" frameHeight="632"/>
+	<SubTexture name="MB_EgghitbyMic instance 10021" x="3717" y="2440" width="632" height="630" frameX="-33" frameY="0" frameWidth="2135" frameHeight="632"/>
+	<SubTexture name="MB_EgghitbyMic instance 10022" x="3717" y="2440" width="632" height="630" frameX="-33" frameY="0" frameWidth="2135" frameHeight="632"/>
+	<SubTexture name="MB_EgghitbyMic instance 10023" x="3717" y="2440" width="632" height="630" frameX="-33" frameY="0" frameWidth="2135" frameHeight="632"/>
+	<SubTexture name="MB_EgghitbyMic instance 10024" x="3717" y="2440" width="632" height="630" frameX="-33" frameY="0" frameWidth="2135" frameHeight="632"/>
+	<SubTexture name="MB_EgghitbyMic instance 10025" x="3717" y="2440" width="632" height="630" frameX="-33" frameY="0" frameWidth="2135" frameHeight="632"/>
+	<SubTexture name="MB_EgghitbyMic instance 10026" x="3717" y="2440" width="632" height="630" frameX="-33" frameY="0" frameWidth="2135" frameHeight="632"/>
+	<SubTexture name="MB_EgghitbyMic instance 10027" x="3717" y="2440" width="632" height="630" frameX="-33" frameY="0" frameWidth="2135" frameHeight="632"/>
+	<SubTexture name="MB_EgghitbyMic instance 10028" x="3717" y="2440" width="632" height="630" frameX="-33" frameY="0" frameWidth="2135" frameHeight="632"/>
+	<SubTexture name="MB_EgghitbyMic instance 10029" x="3717" y="2440" width="632" height="630" frameX="-33" frameY="0" frameWidth="2135" frameHeight="632"/>
+	<SubTexture name="MB_GetYourMic instance 10000" x="4399" y="2440" width="767" height="765" frameX="0" frameY="-136" frameWidth="865" frameHeight="902"/>
+	<SubTexture name="MB_GetYourMic instance 10001" x="4399" y="2440" width="767" height="765" frameX="0" frameY="-136" frameWidth="865" frameHeight="902"/>
+	<SubTexture name="MB_GetYourMic instance 10002" x="5216" y="2440" width="802" height="709" frameX="0" frameY="-193" frameWidth="865" frameHeight="902"/>
+	<SubTexture name="MB_GetYourMic instance 10003" x="6068" y="2440" width="674" height="709" frameX="-128" frameY="-193" frameWidth="865" frameHeight="902"/>
+	<SubTexture name="MB_GetYourMic instance 10004" x="6792" y="2440" width="658" height="830" frameX="-128" frameY="-71" frameWidth="865" frameHeight="902"/>
+	<SubTexture name="MB_GetYourMic instance 10005" x="6792" y="2440" width="658" height="830" frameX="-128" frameY="-71" frameWidth="865" frameHeight="902"/>
+	<SubTexture name="MB_GetYourMic instance 10006" x="0" y="3320" width="694" height="901" frameX="-128" frameY="0" frameWidth="865" frameHeight="902"/>
+	<SubTexture name="MB_GetYourMic instance 10007" x="0" y="3320" width="694" height="901" frameX="-128" frameY="0" frameWidth="865" frameHeight="902"/>
+	<SubTexture name="MB_GetYourMic instance 10008" x="744" y="3320" width="691" height="854" frameX="-128" frameY="-47" frameWidth="865" frameHeight="902"/>
+	<SubTexture name="MB_GetYourMic instance 10009" x="744" y="3320" width="691" height="854" frameX="-128" frameY="-47" frameWidth="865" frameHeight="902"/>
+	<SubTexture name="MB_GetYourMic instance 10010" x="1485" y="3320" width="658" height="842" frameX="-128" frameY="-59" frameWidth="865" frameHeight="902"/>
+	<SubTexture name="MB_GetYourMic instance 10011" x="1485" y="3320" width="658" height="842" frameX="-128" frameY="-59" frameWidth="865" frameHeight="902"/>
+	<SubTexture name="MB_GetYourMic instance 10012" x="2193" y="3320" width="658" height="790" frameX="-128" frameY="-111" frameWidth="865" frameHeight="902"/>
+	<SubTexture name="MB_GetYourMic instance 10013" x="2193" y="3320" width="658" height="790" frameX="-128" frameY="-111" frameWidth="865" frameHeight="902"/>
+	<SubTexture name="MB_GetYourMic instance 10014" x="2901" y="3320" width="675" height="727" frameX="-123" frameY="-174" frameWidth="865" frameHeight="902"/>
+	<SubTexture name="MB_GetYourMic instance 10015" x="2901" y="3320" width="675" height="727" frameX="-123" frameY="-174" frameWidth="865" frameHeight="902"/>
+	<SubTexture name="MB_GetYourMic instance 10016" x="3626" y="3320" width="700" height="757" frameX="-102" frameY="-133" frameWidth="865" frameHeight="902"/>
+	<SubTexture name="MB_GetYourMic instance 10017" x="3626" y="3320" width="700" height="757" frameX="-102" frameY="-133" frameWidth="865" frameHeight="902"/>
+	<SubTexture name="MB_GetYourMic instance 10018" x="4376" y="3320" width="746" height="757" frameX="-119" frameY="-133" frameWidth="865" frameHeight="902"/>
+	<SubTexture name="MB_GetYourMic instance 10019" x="4376" y="3320" width="746" height="757" frameX="-119" frameY="-133" frameWidth="865" frameHeight="902"/>
+	<SubTexture name="MB_GetYourMic instance 10020" x="5172" y="3320" width="730" height="757" frameX="-119" frameY="-133" frameWidth="865" frameHeight="902"/>
+	<SubTexture name="MB_GetYourMic instance 10021" x="5172" y="3320" width="730" height="757" frameX="-119" frameY="-133" frameWidth="865" frameHeight="902"/>
+	<SubTexture name="MB_down instance 10000" x="5952" y="3320" width="605" height="675" frameX="0" frameY="0" frameWidth="621" frameHeight="675"/>
+	<SubTexture name="MB_down instance 10001" x="5952" y="3320" width="605" height="675" frameX="0" frameY="0" frameWidth="621" frameHeight="675"/>
+	<SubTexture name="MB_down instance 10002" x="6607" y="3320" width="621" height="670" frameX="0" frameY="-5" frameWidth="621" frameHeight="675"/>
+	<SubTexture name="MB_down instance 10003" x="6607" y="3320" width="621" height="670" frameX="0" frameY="-5" frameWidth="621" frameHeight="675"/>
+	<SubTexture name="MB_down instance 10004" x="6607" y="3320" width="621" height="670" frameX="0" frameY="-5" frameWidth="621" frameHeight="675"/>
+	<SubTexture name="MB_down instance 10005" x="6607" y="3320" width="621" height="670" frameX="0" frameY="-5" frameWidth="621" frameHeight="675"/>
+	<SubTexture name="MB_down instance 10006" x="6607" y="3320" width="621" height="670" frameX="0" frameY="-5" frameWidth="621" frameHeight="675"/>
+	<SubTexture name="MB_down instance 10007" x="6607" y="3320" width="621" height="670" frameX="0" frameY="-5" frameWidth="621" frameHeight="675"/>
+	<SubTexture name="MB_down instance 10008" x="6607" y="3320" width="621" height="670" frameX="0" frameY="-5" frameWidth="621" frameHeight="675"/>
+	<SubTexture name="MB_down instance 10009" x="6607" y="3320" width="621" height="670" frameX="0" frameY="-5" frameWidth="621" frameHeight="675"/>
+	<SubTexture name="MB_down instance 10010" x="6607" y="3320" width="621" height="670" frameX="0" frameY="-5" frameWidth="621" frameHeight="675"/>
+	<SubTexture name="MB_down instance 10011" x="6607" y="3320" width="621" height="670" frameX="0" frameY="-5" frameWidth="621" frameHeight="675"/>
+	<SubTexture name="MB_down instance 10012" x="6607" y="3320" width="621" height="670" frameX="0" frameY="-5" frameWidth="621" frameHeight="675"/>
+	<SubTexture name="MB_down instance 10013" x="6607" y="3320" width="621" height="670" frameX="0" frameY="-5" frameWidth="621" frameHeight="675"/>
+	<SubTexture name="MB_idle instance 10000" x="7278" y="3320" width="756" height="731" frameX="-10" frameY="-22" frameWidth="766" frameHeight="757"/>
+	<SubTexture name="MB_idle instance 10001" x="0" y="4271" width="759" height="635" frameX="-7" frameY="-22" frameWidth="766" frameHeight="757"/>
+	<SubTexture name="MB_idle instance 10002" x="809" y="4271" width="750" height="742" frameX="-11" frameY="-14" frameWidth="766" frameHeight="757"/>
+	<SubTexture name="MB_idle instance 10003" x="1609" y="4271" width="759" height="641" frameX="-2" frameY="-14" frameWidth="766" frameHeight="757"/>
+	<SubTexture name="MB_idle instance 10004" x="2418" y="4271" width="743" height="753" frameX="-11" frameY="-4" frameWidth="766" frameHeight="757"/>
+	<SubTexture name="MB_idle instance 10005" x="3211" y="4271" width="754" height="650" frameX="0" frameY="-4" frameWidth="766" frameHeight="757"/>
+	<SubTexture name="MB_idle instance 10006" x="4015" y="4271" width="724" height="757" frameX="-11" frameY="0" frameWidth="766" frameHeight="757"/>
+	<SubTexture name="MB_idle instance 10007" x="4015" y="4271" width="724" height="757" frameX="-11" frameY="0" frameWidth="766" frameHeight="757"/>
+	<SubTexture name="MB_idle instance 10008" x="4789" y="4271" width="731" height="757" frameX="-11" frameY="0" frameWidth="766" frameHeight="757"/>
+	<SubTexture name="MB_idle instance 10009" x="4789" y="4271" width="731" height="757" frameX="-11" frameY="0" frameWidth="766" frameHeight="757"/>
+	<SubTexture name="MB_idle instance 10010" x="4789" y="4271" width="731" height="757" frameX="-11" frameY="0" frameWidth="766" frameHeight="757"/>
+	<SubTexture name="MB_idle instance 10011" x="4789" y="4271" width="731" height="757" frameX="-11" frameY="0" frameWidth="766" frameHeight="757"/>
+	<SubTexture name="MB_idle instance 10012" x="4789" y="4271" width="731" height="757" frameX="-11" frameY="0" frameWidth="766" frameHeight="757"/>
+	<SubTexture name="MB_idle instance 10013" x="4789" y="4271" width="731" height="757" frameX="-11" frameY="0" frameWidth="766" frameHeight="757"/>
+	<SubTexture name="MB_left instance 10000" x="5570" y="4271" width="587" height="798" frameX="0" frameY="0" frameWidth="600" frameHeight="798"/>
+	<SubTexture name="MB_left instance 10001" x="5570" y="4271" width="587" height="798" frameX="0" frameY="0" frameWidth="600" frameHeight="798"/>
+	<SubTexture name="MB_left instance 10002" x="6207" y="4271" width="589" height="794" frameX="-11" frameY="-4" frameWidth="600" frameHeight="798"/>
+	<SubTexture name="MB_left instance 10003" x="6207" y="4271" width="589" height="794" frameX="-11" frameY="-4" frameWidth="600" frameHeight="798"/>
+	<SubTexture name="MB_left instance 10004" x="6207" y="4271" width="589" height="794" frameX="-11" frameY="-4" frameWidth="600" frameHeight="798"/>
+	<SubTexture name="MB_left instance 10005" x="6207" y="4271" width="589" height="794" frameX="-11" frameY="-4" frameWidth="600" frameHeight="798"/>
+	<SubTexture name="MB_left instance 10006" x="6207" y="4271" width="589" height="794" frameX="-11" frameY="-4" frameWidth="600" frameHeight="798"/>
+	<SubTexture name="MB_left instance 10007" x="6207" y="4271" width="589" height="794" frameX="-11" frameY="-4" frameWidth="600" frameHeight="798"/>
+	<SubTexture name="MB_left instance 10008" x="6207" y="4271" width="589" height="794" frameX="-11" frameY="-4" frameWidth="600" frameHeight="798"/>
+	<SubTexture name="MB_left instance 10009" x="6207" y="4271" width="589" height="794" frameX="-11" frameY="-4" frameWidth="600" frameHeight="798"/>
+	<SubTexture name="MB_left instance 10010" x="6207" y="4271" width="589" height="794" frameX="-11" frameY="-4" frameWidth="600" frameHeight="798"/>
+	<SubTexture name="MB_left instance 10011" x="6207" y="4271" width="589" height="794" frameX="-11" frameY="-4" frameWidth="600" frameHeight="798"/>
+	<SubTexture name="MB_left instance 10012" x="6207" y="4271" width="589" height="794" frameX="-11" frameY="-4" frameWidth="600" frameHeight="798"/>
+	<SubTexture name="MB_left instance 10013" x="6207" y="4271" width="589" height="794" frameX="-11" frameY="-4" frameWidth="600" frameHeight="798"/>
+	<SubTexture name="MB_right instance 10000" x="6846" y="4271" width="745" height="722" frameX="0" frameY="-4" frameWidth="745" frameHeight="726"/>
+	<SubTexture name="MB_right instance 10001" x="6846" y="4271" width="745" height="722" frameX="0" frameY="-4" frameWidth="745" frameHeight="726"/>
+	<SubTexture name="MB_right instance 10002" x="0" y="5119" width="737" height="726" frameX="0" frameY="0" frameWidth="745" frameHeight="726"/>
+	<SubTexture name="MB_right instance 10003" x="0" y="5119" width="737" height="726" frameX="0" frameY="0" frameWidth="745" frameHeight="726"/>
+	<SubTexture name="MB_right instance 10004" x="0" y="5119" width="737" height="726" frameX="0" frameY="0" frameWidth="745" frameHeight="726"/>
+	<SubTexture name="MB_right instance 10005" x="0" y="5119" width="737" height="726" frameX="0" frameY="0" frameWidth="745" frameHeight="726"/>
+	<SubTexture name="MB_right instance 10006" x="0" y="5119" width="737" height="726" frameX="0" frameY="0" frameWidth="745" frameHeight="726"/>
+	<SubTexture name="MB_right instance 10007" x="0" y="5119" width="737" height="726" frameX="0" frameY="0" frameWidth="745" frameHeight="726"/>
+	<SubTexture name="MB_right instance 10008" x="0" y="5119" width="737" height="726" frameX="0" frameY="0" frameWidth="745" frameHeight="726"/>
+	<SubTexture name="MB_right instance 10009" x="0" y="5119" width="737" height="726" frameX="0" frameY="0" frameWidth="745" frameHeight="726"/>
+	<SubTexture name="MB_right instance 10010" x="0" y="5119" width="737" height="726" frameX="0" frameY="0" frameWidth="745" frameHeight="726"/>
+	<SubTexture name="MB_right instance 10011" x="0" y="5119" width="737" height="726" frameX="0" frameY="0" frameWidth="745" frameHeight="726"/>
+	<SubTexture name="MB_right instance 10012" x="0" y="5119" width="737" height="726" frameX="0" frameY="0" frameWidth="745" frameHeight="726"/>
+	<SubTexture name="MB_right instance 10013" x="0" y="5119" width="737" height="726" frameX="0" frameY="0" frameWidth="745" frameHeight="726"/>
+	<SubTexture name="MB_up instance 10000" x="787" y="5119" width="604" height="812" frameX="0" frameY="0" frameWidth="622" frameHeight="812"/>
+	<SubTexture name="MB_up instance 10001" x="787" y="5119" width="604" height="812" frameX="0" frameY="0" frameWidth="622" frameHeight="812"/>
+	<SubTexture name="MB_up instance 10002" x="1441" y="5119" width="614" height="797" frameX="-8" frameY="-11" frameWidth="622" frameHeight="812"/>
+	<SubTexture name="MB_up instance 10003" x="1441" y="5119" width="614" height="797" frameX="-8" frameY="-11" frameWidth="622" frameHeight="812"/>
+	<SubTexture name="MB_up instance 10004" x="1441" y="5119" width="614" height="797" frameX="-8" frameY="-11" frameWidth="622" frameHeight="812"/>
+	<SubTexture name="MB_up instance 10005" x="1441" y="5119" width="614" height="797" frameX="-8" frameY="-11" frameWidth="622" frameHeight="812"/>
+	<SubTexture name="MB_up instance 10006" x="1441" y="5119" width="614" height="797" frameX="-8" frameY="-11" frameWidth="622" frameHeight="812"/>
+	<SubTexture name="MB_up instance 10007" x="1441" y="5119" width="614" height="797" frameX="-8" frameY="-11" frameWidth="622" frameHeight="812"/>
+	<SubTexture name="MB_up instance 10008" x="1441" y="5119" width="614" height="797" frameX="-8" frameY="-11" frameWidth="622" frameHeight="812"/>
+	<SubTexture name="MB_up instance 10009" x="1441" y="5119" width="614" height="797" frameX="-8" frameY="-11" frameWidth="622" frameHeight="812"/>
+	<SubTexture name="MB_up instance 10010" x="1441" y="5119" width="614" height="797" frameX="-8" frameY="-11" frameWidth="622" frameHeight="812"/>
+	<SubTexture name="MB_up instance 10011" x="1441" y="5119" width="614" height="797" frameX="-8" frameY="-11" frameWidth="622" frameHeight="812"/>
+	<SubTexture name="MB_up instance 10012" x="1441" y="5119" width="614" height="797" frameX="-8" frameY="-11" frameWidth="622" frameHeight="812"/>
+	<SubTexture name="MB_up instance 10013" x="1441" y="5119" width="614" height="797" frameX="-8" frameY="-11" frameWidth="622" frameHeight="812"/>
+</TextureAtlas>
