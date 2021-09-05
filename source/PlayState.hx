@@ -16,6 +16,7 @@ import haxe.Exception;
 import openfl.geom.Matrix;
 import openfl.display.BitmapData;
 import openfl.utils.AssetType;
+import Random;
 
 import lime.graphics.Image;
 import flixel.graphics.FlxGraphic;
@@ -1066,12 +1067,13 @@ class PlayState extends MusicBeatState
 
 		switch (SONG.player2)
 		{
-		  case '`	':
-			camFollow.y -= 20;
+		  case 'egg':
+			camFollow.y -= 30;
+			camFollow.x += 30;
 		  case 'egg2':
-			camFollow.y -= 90;
+			camFollow.y += 20;
 		  case 'monsteregg':
-			camFollow.y -= 200;
+			camFollow.y -= 10;
 		 }
 
 		add(camFollow);
@@ -1128,13 +1130,13 @@ class PlayState extends MusicBeatState
 		  case 'spooky':
 		   healthBar.createFilledBar(0xFFF57E07, 0xFF0097C4);
 		  case 'monster-christmas' | 'monster':
-		   healthBar.createFilledBar(0xFFF5DD07, 0xFF0097C4);
+			healthBar.createFilledBar(0xFFFFCCFF, 0xFF0097C4);
 		  case 'pico':
 		   healthBar.createFilledBar(0xFF52B514, 0xFF0097C4);
 		  case 'egg2' | 'egg':
 		   healthBar.createFilledBar(0xFFFFCCFF, 0xFF0097C4);
 		  case 'monsteregg':
-		   healthBar.createFilledBar(0xFF512070, 0xFF0097C4);
+			healthBar.createFilledBar(0xFFFFCCFF, 0xFF0097C4);
 		 }
 		// healthBar
 		add(healthBar);
@@ -1182,6 +1184,9 @@ class PlayState extends MusicBeatState
 		iconP1.y = healthBar.y - (iconP1.height / 2);
 		add(iconP1);
 
+		if (SONG.song.toLowerCase() == 'let me hear you squawk')
+		iconP2 = new HealthIcon('egg2', false);
+		else
 		iconP2 = new HealthIcon(SONG.player2, false);
 		iconP2.y = healthBar.y - (iconP2.height / 2);
 		add(iconP2);
@@ -1564,7 +1569,7 @@ class PlayState extends MusicBeatState
 			FlxG.sound.playMusic(Paths.inst(PlayState.SONG.song), 1, false);
 		}
 
-		FlxG.sound.music.onComplete = endSong;
+		FlxG.sound.music.onComplete = songoutro;
 		vocals.play();
 
 		// Song duration in a float, useful for the time left feature
@@ -2795,7 +2800,13 @@ class PlayState extends MusicBeatState
 		#end
 	}
 
-
+	function songoutro()
+		{
+			if (SONG.song.toLowerCase() == 'let me hear you squawk' && isStoryMode)
+				FlxG.switchState(new End());
+			else
+				endSong();
+		}
 
 	function endSong():Void
 	{
@@ -2995,13 +3006,11 @@ class PlayState extends MusicBeatState
 			{
 				case 'shit':
 					score = -300;
-					combo = 0;
-					misses++;
 					health -= 0.2;
 					ss = false;
 					shits++;
 					if (FlxG.save.data.accuracyMod == 0)
-						totalNotesHit -= 1;
+						totalNotesHit += 0.50;
 				case 'bad':
 					daRating = 'bad';
 					score = 0;
@@ -3614,6 +3623,9 @@ class PlayState extends MusicBeatState
 					if (daNote.specialAnim == true)
 					{
 						altAnim = '-special';
+
+
+
 					}
 	
 				}
@@ -3787,10 +3799,6 @@ class PlayState extends MusicBeatState
 
 						if (note.specialAnim == true)
 						{
-							altAnim = '-special';
-							if (SONG.song.toLowerCase() == "manic")
-							{
-							}
 						}
 					}
 
@@ -4050,6 +4058,15 @@ class PlayState extends MusicBeatState
 							FlxG.camera.flash(FlxColor.WHITE, 3);
 							eggh3.alpha = 0;
 							dad.alpha = 1;
+							remove(iconP2);
+							iconP2 = new HealthIcon('monsteregg', false);
+							iconP2.y = healthBar.y - (iconP2.height / 2);
+							iconP2.cameras = [camHUD];
+							add(iconP2);
+							remove(healthBar);
+							healthBar.createFilledBar(0xFF512070, 0xFF0097C4);
+							add(healthBar);
+							health -= 0.001;
 						case 137:
 						dad.playAnim('spit1', true);
 						boyfriend.alpha = 0;

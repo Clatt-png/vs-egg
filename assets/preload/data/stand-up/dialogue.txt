@@ -1,3 +1,4 @@
+:bg:dontdelete
 :startvoice:voicelines/scene2_1
 :gfnormal:Look! Its hatching!
 :stopvoice:

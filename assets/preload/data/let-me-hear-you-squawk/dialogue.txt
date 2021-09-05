@@ -1,3 +1,4 @@
+:bg:dontdelete
 :startvoice:voicelines/scene3_1
 :bfhappy:THAT. Was crazy! You wanna go another round buddy?
 :stopvoice:

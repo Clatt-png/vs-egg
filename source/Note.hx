@@ -38,7 +38,7 @@ class Note extends FlxSprite
 
 	public var rating:String = "shit";
 
-	public function new(strumTime:Float, noteData:Int, ?prevNote:Note, ?sustainNote:Bool = false, ?inCharter:Bool = false, ?isAlt:Bool = false, ?bet:Float = 0, isSpecialAnim:Bool = false)
+	public function new(strumTime:Float, noteData:Int, ?prevNote:Note, ?sustainNote:Bool = false, isSpecialAnim:Bool = false, ?inCharter:Bool = false, ?isAlt:Bool = false, ?bet:Float = 0)
 	{
 		super();
 
@@ -125,7 +125,7 @@ class Note extends FlxSprite
 				antialiasing = true;
 		}
 
-		if (specialAnim)
+		if (isSpecialAnim)
 			{
 				switch (noteData)
 				{

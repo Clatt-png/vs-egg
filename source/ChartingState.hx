@@ -45,6 +45,7 @@ class ChartingState extends MusicBeatState
 
 	public var playClaps:Bool = false;
 
+
 	public var snap:Int = 1;
 
 	var UI_box:FlxUITabMenu;

@@ -38,6 +38,7 @@ class MainMenuState extends MusicBeatState
 	var newGaming:FlxText;
 	var newGaming2:FlxText;
 	public static var firstStart:Bool = true;
+	public static var firstegg:Bool = true;
 
 	public static var candoshit:Bool = false;
 
@@ -78,11 +79,12 @@ class MainMenuState extends MusicBeatState
 		bg = new FlxSprite(-100).loadGraphic(Paths.image('menuBG'));
 		bg.scrollFactor.x = 0;
 		bg.scrollFactor.y = 0.10;
-		bg.setGraphicSize(Std.int(bg.width * 1.1));
 		bg.updateHitbox();
 		bg.screenCenter();
 		bg.antialiasing = true;
+		if (firstegg)
 		bg.scale.set(0.5, 0.5);
+		if (firstegg)
 		bg.alpha = 0;
 		add(bg);
 
@@ -92,7 +94,6 @@ class MainMenuState extends MusicBeatState
 		magenta = new FlxSprite(-80).loadGraphic(Paths.image('menuBG'));
 		magenta.scrollFactor.x = 0;
 		magenta.scrollFactor.y = 0.10;
-		magenta.setGraphicSize(Std.int(magenta.width * 1.1));
 		magenta.updateHitbox();
 		magenta.screenCenter();
 		magenta.visible = false;
@@ -116,9 +117,11 @@ class MainMenuState extends MusicBeatState
 			menuItem.ID = i;
 			menuItem.screenCenter(X);
 			menuItems.add(menuItem);
+			if (firstegg)
 			menuItem.scale.set(0.5, 0.5);
 			menuItem.scrollFactor.set();
 			menuItem.antialiasing = true;
+			if (firstegg)
 			menuItem.alpha = 0;
 			if (firstStart)
 				FlxTween.tween(menuItem,{y: 60 + (i * 160)},1 + (i * 0.25) ,{ease: FlxEase.expoInOut, onComplete: function(flxTween:FlxTween) 
@@ -150,43 +153,48 @@ class MainMenuState extends MusicBeatState
 
 		changeItem();
 
-		menuegg = new FlxSprite();
-		menuegg.frames = Paths.getSparrowAtlas('EggTitleAnim');
-		menuegg.animation.addByPrefix('tap1', "EggTap0 instance 1", 24);
-		menuegg.animation.addByPrefix('tap2', "EggTap1 instance 1", 24);
-		menuegg.animation.addByPrefix('tap3', "EggTap2 instance 1", 24);
-		menuegg.animation.addByPrefix('tap4', "EggTap3 instance 1", 24);
-		menuegg.animation.addByPrefix('open', "EggCrackOpen instance 1", 24);
-		add(menuegg);
-		menuegg.animation.play('tap1');
-		menuegg.screenCenter();
-		menuegg.x += 220;
-		menuegg.y += 240;
-		menuegg.scrollFactor.set();
-		menuegg.antialiasing = true;
-		menuegg.alpha = 0;
-
-		menutext = new FlxSprite(100, FlxG.height * 0.8);
-		menutext.frames = Paths.getSparrowAtlas('TapText');
-		menutext.animation.addByPrefix('text', "Text instance 1", 24);
-		add(menutext);
-		menutext.animation.play('text');
-		menutext.alpha = 0;
-
-		FlxG.camera.zoom = 0.5;
-
-		FlxTween.tween(FlxG.camera, {zoom: 1}, 4, {ease: FlxEase.expoInOut, onComplete: function(flxTween:FlxTween) 
-			{ 
-				
-			}});
-
-		FlxTween.tween(menuegg, {alpha: 1}, 3, {ease: FlxEase.expoInOut});
-		FlxTween.tween(menutext, {alpha: 1}, 4, {ease: FlxEase.expoInOut});
-		
-		new FlxTimer().start(3, function(tmr:FlxTimer)
+		if (firstegg)
 			{
-				cantap = true;
-			});
+				menuegg = new FlxSprite();
+				menuegg.frames = Paths.getSparrowAtlas('EggTitleAnim');
+				menuegg.animation.addByPrefix('tap1', "EggTap0 instance 1", 24);
+				menuegg.animation.addByPrefix('tap2', "EggTap1 instance 1", 24);
+				menuegg.animation.addByPrefix('tap3', "EggTap2 instance 1", 24);
+				menuegg.animation.addByPrefix('tap4', "EggTap3 instance 1", 24);
+				menuegg.animation.addByPrefix('open', "EggCrackOpen instance 1", 24);
+				add(menuegg);
+				menuegg.animation.play('tap1');
+				menuegg.screenCenter();
+				menuegg.x += 220;
+				menuegg.y += 240;
+				menuegg.scrollFactor.set();
+				menuegg.antialiasing = true;
+				menuegg.alpha = 0;
+		
+				menutext = new FlxSprite(100, FlxG.height * 0.8);
+				menutext.frames = Paths.getSparrowAtlas('TapText');
+				menutext.animation.addByPrefix('text', "Text instance 1", 24);
+				add(menutext);
+				menutext.animation.play('text');
+				menutext.alpha = 0;
+		
+				FlxG.camera.zoom = 0.5;
+		
+				FlxTween.tween(FlxG.camera, {zoom: 1}, 4, {ease: FlxEase.expoInOut, onComplete: function(flxTween:FlxTween) 
+					{ 
+						
+					}});
+		
+				FlxTween.tween(menuegg, {alpha: 1}, 3, {ease: FlxEase.expoInOut});
+				FlxTween.tween(menutext, {alpha: 1}, 4, {ease: FlxEase.expoInOut});
+				
+				new FlxTimer().start(3, function(tmr:FlxTimer)
+					{
+						cantap = true;
+					});
+			}
+
+
 
 		super.create();
 	}
@@ -201,7 +209,7 @@ class MainMenuState extends MusicBeatState
 			FlxG.sound.music.volume += 0.5 * FlxG.elapsed;
 		}
 
-		if (FlxG.mouse.justPressed && cantap)
+		if (FlxG.mouse.justPressed && cantap && firstegg)
 			{
 				eggclicks++;
 				trace('aa');
@@ -209,25 +217,14 @@ class MainMenuState extends MusicBeatState
 				FlxG.camera.shake(0.01, 0.2);
 			}
 
-		if (FlxG.keys.justPressed.TWO)
-			menuegg.animation.play('tap2');
-
-		if (FlxG.keys.justPressed.THREE)
-			menuegg.animation.play('tap3');
-
-		if (FlxG.keys.justPressed.FOUR)
-			menuegg.animation.play('tap4');
-
-		if (FlxG.keys.justPressed.FIVE)
-			{
-				menuegg.animation.play('open');
-				
-			}
 
 		if (controls.BACK)
 			{
 				FlxG.switchState(new TitleState());
 			}
+
+		if (candoshit)
+			firstegg = false;
 			
 
 		if (!selectedSomethin && candoshit)
@@ -322,10 +319,6 @@ class MainMenuState extends MusicBeatState
 		if (eggclicks == 3)
 			{
 				menuegg.animation.play('tap2');
-				new FlxTimer().start(1, function(tmr:FlxTimer)
-					{
-						menuegg.animation.finish();
-					});
 			}
 
 		if (eggclicks == 6)
@@ -333,7 +326,10 @@ class MainMenuState extends MusicBeatState
 				menuegg.animation.play('tap4');
 				new FlxTimer().start(1, function(tmr:FlxTimer)
 					{
-						menuegg.animation.finish();
+						if (menuegg.animation.curAnim.name.startsWith('tap4'))
+							{
+								menuegg.animation.finish();
+							}
 					});
 			}
 			
