@@ -983,7 +983,7 @@ class PlayState extends MusicBeatState
 		if (SONG.song.toLowerCase() == 'stand up')
 			{
 				dad.alpha = 0;
-				eggh2 = new FlxSprite(-430, 85);
+				eggh2 = new FlxSprite(-440, 80);
 				eggh2.frames = Paths.getSparrowAtlas('eggCutscene2','shared',true);
 				eggh2.animation.addByPrefix('breakout', 'EggCutscene2 instance 1', 24, false);
 				eggh2.alpha = 1;
@@ -1070,10 +1070,22 @@ class PlayState extends MusicBeatState
 		  case 'egg':
 			camFollow.y -= 30;
 			camFollow.x += 30;
-		  case 'egg2':
-			camFollow.y += 20;
-		  case 'monsteregg':
-			camFollow.y -= 10;
+			case 'egg2':
+				if (!isStoryMode)
+					{
+						camFollow.y -= 200;
+					}
+					else
+						camFollow.y += 20;
+
+			  case 'monsteregg':
+				if (!isStoryMode)
+					{
+						camFollow.y -= 200;
+					}
+					else
+						camFollow.y -= 10;
+			
 		 }
 
 		add(camFollow);
@@ -2675,8 +2687,6 @@ class PlayState extends MusicBeatState
 								dad.playAnim('singLEFT' + altAnim, true);
 						}
 						
-						if (FlxG.save.data.cpuStrums)
-						{
 							cpuStrums.forEach(function(spr:FlxSprite)
 							{
 								if (Math.abs(daNote.noteData) == spr.ID)
@@ -2692,8 +2702,6 @@ class PlayState extends MusicBeatState
 								else
 									spr.centerOffsets();
 							});
-						}
-	
 						#if windows
 						if (luaModchart != null)
 							luaModchart.executeState('playerTwoSing', [Math.abs(daNote.noteData), Conductor.songPosition]);
@@ -2785,8 +2793,6 @@ class PlayState extends MusicBeatState
 				});
 			}
 
-		if (FlxG.save.data.cpuStrums)
-		{
 			cpuStrums.forEach(function(spr:FlxSprite)
 			{
 				if (spr.animation.finished)
@@ -2795,7 +2801,6 @@ class PlayState extends MusicBeatState
 					spr.centerOffsets();
 				}
 			});
-		}
 
 		if (!inCutscene)
 			keyShit();
@@ -3013,9 +3018,9 @@ class PlayState extends MusicBeatState
 			{
 				case 'shit':
 					score = -300;
-					health -= 0.2;
+					health -= 0.06;
 					ss = false;
-					shits++;
+					bads++;
 					if (FlxG.save.data.accuracyMod == 0)
 						totalNotesHit += 0.50;
 				case 'bad':

@@ -188,7 +188,7 @@ class MainMenuState extends MusicBeatState
 				FlxTween.tween(menuegg, {alpha: 1}, 3, {ease: FlxEase.expoInOut});
 				FlxTween.tween(menutext, {alpha: 1}, 4, {ease: FlxEase.expoInOut});
 				
-				new FlxTimer().start(3, function(tmr:FlxTimer)
+				new FlxTimer().start(2.5, function(tmr:FlxTimer)
 					{
 						cantap = true;
 					});
@@ -347,7 +347,7 @@ class MainMenuState extends MusicBeatState
 
 					menuegg.animation.finish();
 					FlxTween.tween(menuegg, {y: 1000}, 2, {ease: FlxEase.expoInOut});
-					FlxTween.tween(menutext, {x: 2000}, 2, {ease: FlxEase.expoInOut});
+					FlxTween.tween(menutext, {x: 2000}, 1, {ease: FlxEase.expoInOut});
 					cantap = false;
 					FlxG.mouse.visible = false;
 					menuItems.forEach(function(spr:FlxSprite)

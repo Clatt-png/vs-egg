@@ -27,6 +27,7 @@ class End extends FlxState {
 		sprite3 = new FlxSprite(-1000);
         sprite3.loadGraphic(Paths.image("image0"));
         sprite3.updateHitbox();
+		add(sprite3);
 
 		sprite = new FlxSprite();
         sprite.loadGraphic(Paths.image("ssw"));
@@ -52,10 +53,14 @@ class End extends FlxState {
 		if (taps == 1)
 			{
 				remove(sprite);
+				FlxTween.tween(sprite3, {x: 0}, 0.9, {ease: FlxEase.expoInOut, onComplete: function(flxTween:FlxTween) 
+					{ 
+					}});
 			}
 		if (taps == 2)
 			{
 				FlxG.switchState(new StoryMenuState());
+				taps = 0;
 			}
 	}
 }
