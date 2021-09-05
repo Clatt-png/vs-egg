@@ -159,7 +159,7 @@ class Character extends FlxSprite
 				case 'monsteregg2':
 					tex = Paths.getSparrowAtlas('monsterchick','shared',true);
 					frames = tex;
-					animation.addByPrefix('spit1', 'MC_spit1 instance 1', 17, false);
+					animation.addByPrefix('spit1', 'MC_spit instance 1', 17, false);
 					animation.addByPrefix('spit2', 'MC_spit2 instance 1', 17, false);
 					animation.addByPrefix('spit3', 'MC_spit3 instance 1', 17, false);
 	

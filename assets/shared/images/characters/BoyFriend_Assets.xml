@@ -428,6 +428,19 @@
 	<SubTexture name="BF egg hit instance 10016" x="6767" y="1854" width="392" height="408" frameX="-48" frameY="-24" frameWidth="451" frameHeight="442"/>
 	<SubTexture name="BF egg hit instance 10017" x="7159" y="1854" width="392" height="408" frameX="-48" frameY="-24" frameWidth="451" frameHeight="442"/>
 	<SubTexture name="BF egg hit instance 10018" x="6767" y="1854" width="392" height="408" frameX="-48" frameY="-24" frameWidth="451" frameHeight="442"/>
+	<SubTexture name="BF egg hit idle instance 10001" x="6767" y="1854" width="392" height="408" frameX="-48" frameY="-24" frameWidth="451" frameHeight="442"/>
+	<SubTexture name="BF egg hit idle instance 10002" x="7159" y="1854" width="392" height="408" frameX="-48" frameY="-24" frameWidth="451" frameHeight="442"/>
+	<SubTexture name="BF egg hit idle instance 10003" x="6767" y="1854" width="392" height="408" frameX="-48" frameY="-24" frameWidth="451" frameHeight="442"/>
+	<SubTexture name="BF egg hit idle instance 10004" x="7159" y="1854" width="392" height="408" frameX="-48" frameY="-24" frameWidth="451" frameHeight="442"/>
+	<SubTexture name="BF egg hit idle instance 10005" x="6767" y="1854" width="392" height="408" frameX="-48" frameY="-24" frameWidth="451" frameHeight="442"/>
+	<SubTexture name="BF egg hit idle instance 10006" x="7159" y="1854" width="392" height="408" frameX="-48" frameY="-24" frameWidth="451" frameHeight="442"/>
+	<SubTexture name="BF egg hit idle instance 10007" x="6767" y="1854" width="392" height="408" frameX="-48" frameY="-24" frameWidth="451" frameHeight="442"/>
+	<SubTexture name="BF egg hit idle instance 10008" x="7159" y="1854" width="392" height="408" frameX="-48" frameY="-24" frameWidth="451" frameHeight="442"/>
+	<SubTexture name="BF egg hit idle instance 10009" x="6767" y="1854" width="392" height="408" frameX="-48" frameY="-24" frameWidth="451" frameHeight="442"/>
+	<SubTexture name="BF egg hit idle instance 10010" x="7159" y="1854" width="392" height="408" frameX="-48" frameY="-24" frameWidth="451" frameHeight="442"/>
+	<SubTexture name="BF egg hit idle instance 10011" x="6767" y="1854" width="392" height="408" frameX="-48" frameY="-24" frameWidth="451" frameHeight="442"/>
+	<SubTexture name="BF egg hit idle instance 10012" x="7159" y="1854" width="392" height="408" frameX="-48" frameY="-24" frameWidth="451" frameHeight="442"/>
+	<SubTexture name="BF egg hit idle instance 10013" x="6767" y="1854" width="392" height="408" frameX="-48" frameY="-24" frameWidth="451" frameHeight="442"/>
 	<SubTexture name="BF egg yeet instance 10000" x="7551" y="1854" width="429" height="426" frameX="0" frameY="0" frameWidth="862" frameHeight="426"/>
 	<SubTexture name="BF egg yeet instance 10001" x="0" y="2296" width="612" height="426" frameX="-34" frameY="0" frameWidth="862" frameHeight="426"/>
 	<SubTexture name="BF egg yeet instance 10002" x="612" y="2296" width="700" height="426" frameX="-34" frameY="0" frameWidth="862" frameHeight="426"/>

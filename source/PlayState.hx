@@ -86,8 +86,8 @@ class PlayState extends MusicBeatState
 	public static var curStage:String = '';
 	public static var SONG:SwagSong;
 	public static var isStoryMode:Bool = false;
-	private var bf2:FlxSprite;
-	private var bf3:FlxSprite;
+	private var bfscream:FlxSprite;
+	private var bfegg:FlxSprite;
 	public static var storyWeek:Int = 0;
 	public static var storyPlaylist:Array<String> = [];
 	public static var storyDifficulty:Int = 1;
@@ -97,6 +97,8 @@ class PlayState extends MusicBeatState
 	public static var bads:Int = 0;
 	public static var goods:Int = 0;
 	public static var sicks:Int = 0;
+
+	var spacepress:Int = 0;
 
 	public static var songPosBG:FlxSprite;
 	public static var songPosBar:FlxBar;
@@ -216,6 +218,8 @@ class PlayState extends MusicBeatState
 
 	public static var timeCurrently:Float = 0;
 	public static var timeCurrentlyR:Float = 0;
+
+	public var eggonhead:Bool = false;
 	
 	// Will fire once to prevent debug spam messages and broken animations
 	private var triggeredAlready:Bool = false;
@@ -231,6 +235,7 @@ class PlayState extends MusicBeatState
 	private var eggh:FlxSprite;
 	private var eggh2:FlxSprite;
 	private var eggh3:FlxSprite;
+	private var spitegg:FlxSprite;
 
 	private var saveNotes:Array<Dynamic> = [];
 	private var saveJudge:Array<String> = [];
@@ -939,8 +944,47 @@ class PlayState extends MusicBeatState
 			if (curStage == 'limo')
 				add(limo);
 
-			add(dad);
+			if (SONG.song.toLowerCase() == 'let me hear you squawk')
+				{
+					dad.alpha = 0;
+					eggh3 = new FlxSprite(-271, 200);
+					eggh3.frames = Paths.getSparrowAtlas('sickbabyEgg','shared',true);
+					eggh3.animation.addByPrefix('idle', 'MB_Sway instance 1', 24);
+					eggh3.animation.play('idle');
+					add(eggh3);
+	
+					bfscream = new FlxSprite(978, 480);
+					bfscream.frames = Paths.getSparrowAtlas('BoyFriend_Assets','shared',true);
+					bfscream.animation.addByPrefix('scream', 'BF scream instance 1', 24);
+					bfscream.alpha = 0;
+					bfscream.y += 20;
+					bfscream.x += 20;
+					add(bfscream);
+		
+					bfegg = new FlxSprite(978, 480);
+					bfegg.frames = Paths.getSparrowAtlas('BoyFriend_Assets','shared',true);
+					bfegg.animation.addByPrefix('gethit', 'BF egg hit instance 1', 24);
+					bfegg.animation.addByPrefix('gethitidle', 'BF egg hit idle instance 1', 24);
+					bfegg.animation.addByPrefix('shakeoff', 'BF egg yeet instance 1', 24);
+					bfegg.alpha = 0;
+					bfegg.y -= 15;
+					bfegg.x -= 10;
+					add(bfegg);
+	
+					spitegg = new FlxSprite(-271, 200);
+					spitegg.frames = Paths.getSparrowAtlas('monsterchick','shared',true);
+					spitegg.animation.addByPrefix('spit1', 'MC_spit instance 1', 24, false);
+					spitegg.animation.addByPrefix('spit2', 'MC_spit2 instance 1', 24, false);
+					spitegg.animation.addByPrefix('spit3', 'MC_spit3 instance 1', 24, false);
+					spitegg.alpha = 0;
+					spitegg.y -= 100;
+					spitegg.x -= 30;
+					add(spitegg);
+				}
+
 			add(boyfriend);
+			add(dad);
+			
 
 			if (curStage == 'touchsomegrass')
 				{
@@ -970,15 +1014,7 @@ class PlayState extends MusicBeatState
 		if (SONG.song.toLowerCase() == 'pecking order')
 		add(eggh);
 
-		if (SONG.song.toLowerCase() == 'let me hear you squawk')
-			{
-				dad.alpha = 0;
-				eggh3 = new FlxSprite(-271, 200);
-				eggh3.frames = Paths.getSparrowAtlas('sickbabyEgg','shared',true);
-				eggh3.animation.addByPrefix('idle', 'MB_Sway instance 1', 24);
-				eggh3.animation.play('idle');
-				add(eggh3);
-			}
+
 
 		if (SONG.song.toLowerCase() == 'stand up')
 			{
@@ -990,21 +1026,8 @@ class PlayState extends MusicBeatState
 				add(eggh2);
 			}
 
-			bf2 = new FlxSprite(978, 480);
-			bf2.frames = Paths.getSparrowAtlas('BoyFriend_Assets','shared',true);
-			bf2.animation.addByPrefix('scream', 'BF scream instance 1', 24);
-			bf2.animation.addByPrefix('shakeoff', 'BF egg yeet instance 1', 24);
-			bf2.animation.addByPrefix('gethit', 'BF hit instance 1', 24);
-			bf2.alpha = 0;
-			add(bf2);
 
-			bf3 = new FlxSprite(978, 480);
-			bf3.frames = Paths.getSparrowAtlas('BoyFriend_Assets','shared',true);
-			bf3.animation.addByPrefix('scream', 'BF scream instance 1', 24);
-			bf3.animation.addByPrefix('shakeoff', 'BF egg yeet instance 1', 24);
-			bf3.animation.addByPrefix('gethit', 'BF hit instance 1', 24);
-			bf3.alpha = 0;
-			add(bf3);
+
 
 
 		if (loadRep)
@@ -1084,7 +1107,7 @@ class PlayState extends MusicBeatState
 						camFollow.y -= 200;
 					}
 					else
-						camFollow.y -= 10;
+						camFollow.y -= 200;
 			
 		 }
 
@@ -1535,7 +1558,7 @@ class PlayState extends MusicBeatState
 
 		dataNotes.sort((a, b) -> Std.int(a.strumTime - b.strumTime)); // sort by the earliest note
 		
-		if (dataNotes.length != 0)
+		if (dataNotes.length != 0 && !eggonhead)
 		{
 			var coolNote = dataNotes[0];
 
@@ -1858,21 +1881,25 @@ class PlayState extends MusicBeatState
 							case 0:
 								babyArrow.x += Note.swagWidth * 0;
 								babyArrow.animation.addByPrefix('static', 'arrowLEFT');
+								babyArrow.animation.addByPrefix('dead', 'gone');
 								babyArrow.animation.addByPrefix('pressed', 'left press', 24, false);
 								babyArrow.animation.addByPrefix('confirm', 'left confirm', 24, false);
 							case 1:
 								babyArrow.x += Note.swagWidth * 1;
 								babyArrow.animation.addByPrefix('static', 'arrowDOWN');
+								babyArrow.animation.addByPrefix('dead', 'gone');
 								babyArrow.animation.addByPrefix('pressed', 'down press', 24, false);
 								babyArrow.animation.addByPrefix('confirm', 'down confirm', 24, false);
 							case 2:
 								babyArrow.x += Note.swagWidth * 2;
 								babyArrow.animation.addByPrefix('static', 'arrowUP');
+								babyArrow.animation.addByPrefix('dead', 'gone');
 								babyArrow.animation.addByPrefix('pressed', 'up press', 24, false);
 								babyArrow.animation.addByPrefix('confirm', 'up confirm', 24, false);
 							case 3:
 								babyArrow.x += Note.swagWidth * 3;
 								babyArrow.animation.addByPrefix('static', 'arrowRIGHT');
+								babyArrow.animation.addByPrefix('dead', 'gone');
 								babyArrow.animation.addByPrefix('pressed', 'right press', 24, false);
 								babyArrow.animation.addByPrefix('confirm', 'right confirm', 24, false);
 							}
@@ -1892,21 +1919,25 @@ class PlayState extends MusicBeatState
 							case 0:
 								babyArrow.x += Note.swagWidth * 0;
 								babyArrow.animation.addByPrefix('static', 'arrowLEFT');
+								babyArrow.animation.addByPrefix('dead', 'gone');
 								babyArrow.animation.addByPrefix('pressed', 'left press', 24, false);
 								babyArrow.animation.addByPrefix('confirm', 'left confirm', 24, false);
 							case 1:
 								babyArrow.x += Note.swagWidth * 1;
 								babyArrow.animation.addByPrefix('static', 'arrowDOWN');
+								babyArrow.animation.addByPrefix('dead', 'gone');
 								babyArrow.animation.addByPrefix('pressed', 'down press', 24, false);
 								babyArrow.animation.addByPrefix('confirm', 'down confirm', 24, false);
 							case 2:
 								babyArrow.x += Note.swagWidth * 2;
 								babyArrow.animation.addByPrefix('static', 'arrowUP');
+								babyArrow.animation.addByPrefix('dead', 'gone');
 								babyArrow.animation.addByPrefix('pressed', 'up press', 24, false);
 								babyArrow.animation.addByPrefix('confirm', 'up confirm', 24, false);
 							case 3:
 								babyArrow.x += Note.swagWidth * 3;
 								babyArrow.animation.addByPrefix('static', 'arrowRIGHT');
+								babyArrow.animation.addByPrefix('dead', 'gone');
 								babyArrow.animation.addByPrefix('pressed', 'right press', 24, false);
 								babyArrow.animation.addByPrefix('confirm', 'right confirm', 24, false);
 						}
@@ -1932,7 +1963,6 @@ class PlayState extends MusicBeatState
 					playerStrums.add(babyArrow);
 			}
 
-			babyArrow.animation.play('static');
 			babyArrow.x += 50;
 			babyArrow.x += ((FlxG.width / 2) * player);
 			
@@ -2133,6 +2163,20 @@ class PlayState extends MusicBeatState
 				iconP1.animation.play('bf-old');
 		}
 
+		if (FlxG.keys.justPressed.SPACE && eggonhead)
+			{
+				spacepress++;
+				checkpress();
+			}
+
+		if (eggonhead)
+			{
+				boyfriend.alpha = 0;
+				bfegg.alpha = 1;
+			}
+
+
+
 		switch (curStage)
 		{
 			case 'philly':
@@ -2151,8 +2195,8 @@ class PlayState extends MusicBeatState
 
 		super.update(elapsed);
 
-		if (FlxG.keys.justPressed.ONE)
-			dad.playAnim('spit1', true);
+		if (bfegg.alpha == 1)
+			boyfriend.alpha = 0;
 
 		scoreTxt.text = Ratings.CalculateRanking(songScore,songScoreDef,nps,maxNPS,accuracy);
 
@@ -3319,6 +3363,7 @@ class PlayState extends MusicBeatState
 					releaseArray = [false, false, false, false];
 				} 
 
+
 				var anas:Array<Ana> = [null,null,null,null];
 
 				for (i in 0...pressArray.length)
@@ -3326,11 +3371,11 @@ class PlayState extends MusicBeatState
 						anas[i] = new Ana(Conductor.songPosition, null, false, "miss", i);
 
 				// HOLDS, check for sustain notes
-				if (holdArray.contains(true) && /*!boyfriend.stunned && */ generatedMusic)
+				if (holdArray.contains(true) && /*!boyfriend.stunned && */ generatedMusic && !eggonhead)
 				{
 					notes.forEachAlive(function(daNote:Note)
 					{
-						if (daNote.isSustainNote && daNote.canBeHit && daNote.mustPress && holdArray[daNote.noteData])
+						if (daNote.isSustainNote && daNote.canBeHit && daNote.mustPress && holdArray[daNote.noteData] && !eggonhead)
 							goodNoteHit(daNote);
 					});
 				}
@@ -3338,7 +3383,7 @@ class PlayState extends MusicBeatState
 				if (KeyBinds.gamepad && !FlxG.keys.justPressed.ANY)
 				{
 					// PRESSES, check for note hits
-					if (pressArray.contains(true) && generatedMusic)
+					if (pressArray.contains(true) && generatedMusic && !eggonhead)
 					{
 						boyfriend.holdTimer = 0;
 			
@@ -3401,7 +3446,7 @@ class PlayState extends MusicBeatState
 							}
 							for (coolNote in possibleNotes)
 							{
-								if (pressArray[coolNote.noteData])
+								if (pressArray[coolNote.noteData] && !eggonhead)
 								{
 									if (mashViolations != 0)
 										mashViolations--;
@@ -3462,9 +3507,9 @@ class PlayState extends MusicBeatState
 		 
 				playerStrums.forEach(function(spr:FlxSprite)
 				{
-					if (pressArray[spr.ID] && spr.animation.curAnim.name != 'confirm')
+					if (pressArray[spr.ID] && spr.animation.curAnim.name != 'confirm' && !eggonhead)
 						spr.animation.play('pressed');
-					if (!holdArray[spr.ID])
+					if (!holdArray[spr.ID] && !eggonhead)
 						spr.animation.play('static');
 		 
 					if (spr.animation.curAnim.name == 'confirm' && !curStage.startsWith('school'))
@@ -3742,7 +3787,7 @@ class PlayState extends MusicBeatState
 				}
 			} */
 			
-			if (controlArray[note.noteData])
+			if (controlArray[note.noteData] && !eggonhead)
 			{
 				goodNoteHit(note, (mashing > getKeyPresses(note)));
 				
@@ -3755,10 +3800,6 @@ class PlayState extends MusicBeatState
 				else if (mashViolations > 2)
 				{
 					// this is bad but fuck you
-					playerStrums.members[0].animation.play('static');
-					playerStrums.members[1].animation.play('static');
-					playerStrums.members[2].animation.play('static');
-					playerStrums.members[3].animation.play('static');
 					health -= 0.4;
 					trace('mash ' + mashing);
 					if (mashing != 0)
@@ -3768,6 +3809,54 @@ class PlayState extends MusicBeatState
 					goodNoteHit(note, false);*/
 
 			}
+		}
+
+		function dothisnow() {
+			boyfriend.alpha = 0;
+			bfegg.alpha = 1;
+			bfegg.animation.play('gethit');
+			eggonhead = true;
+			playerStrums.forEach(function(spr:FlxSprite)
+				{
+					 spr.animation.play('dead');
+				});
+			new FlxTimer().start(0.5, function(tmr:FlxTimer)
+				{
+					bfegg.animation.play('gethitidle');
+				});
+
+			remove(iconP1);
+			iconP1 = new HealthIcon('bfegg', false);
+			iconP1.y = healthBar.y - (iconP1.height / 2);
+			iconP1.cameras = [camHUD];
+			iconP1.flipX = true;
+			add(iconP1);
+			
+		}
+
+		function checkpress() {
+			if (spacepress >= 3)
+				{
+					playerStrums.forEach(function(spr:FlxSprite)
+						{
+							 spr.animation.play('dead');
+						});
+					eggonhead = false;
+					spacepress = 0;
+					bfegg.animation.play('shakeoff');
+					new FlxTimer().start(0.5, function(tmr:FlxTimer)
+						{
+							boyfriend.alpha = 1;
+							bfegg.alpha = 0;
+							remove(iconP1);
+							iconP1 = new HealthIcon('bf', false);
+							iconP1.y = healthBar.y - (iconP1.height / 2);
+							iconP1.cameras = [camHUD];
+							iconP1.flipX = true;
+							add(iconP1);
+						});
+				}
+			
 		}
 
 		function goodNoteHit(note:Note, resetMashViolation = true):Void
@@ -3821,11 +3910,39 @@ class PlayState extends MusicBeatState
 	
 					if (SONG.notes[curSection] != null)
 					{
-						if (SONG.notes[curSection].altAnim == true)
-							altAnim = '-alt';
-
 						if (note.specialAnim == true)
 						{
+							dad.alpha = 0;
+							switch(Random.int(1, 3)) {
+								case 1:
+									spitegg.alpha = 1;
+									spitegg.animation.play('spit1');
+									new FlxTimer().start(0.5, function(tmr:FlxTimer)
+										{
+											dothisnow();
+											spitegg.alpha = 0;
+											dad.alpha = 1;
+										});
+								case 2:
+									spitegg.alpha = 1;
+									spitegg.animation.play('spit2');
+									new FlxTimer().start(0.5, function(tmr:FlxTimer)
+										{
+											dothisnow();
+											spitegg.alpha = 0;
+											dad.alpha = 1;
+										});
+								case 3:
+									spitegg.alpha = 1;
+									spitegg.animation.play('spit3');
+									new FlxTimer().start(0.5, function(tmr:FlxTimer)
+										{
+											dothisnow();
+											spitegg.alpha = 0;
+											dad.alpha = 1;
+										});
+							}
+
 						}
 					}
 
@@ -3859,7 +3976,7 @@ class PlayState extends MusicBeatState
 					
 					playerStrums.forEach(function(spr:FlxSprite)
 					{
-						if (Math.abs(note.noteData) == spr.ID)
+						if (Math.abs(note.noteData) == spr.ID && !eggonhead)
 						{
 							spr.animation.play('confirm', true);
 						}
@@ -4093,18 +4210,20 @@ class PlayState extends MusicBeatState
 							remove(healthBar);
 							healthBar.createFilledBar(0xFF512070, 0xFF0097C4);
 							add(healthBar);
-							health -= 0.001;
+							health -= 0.0001;// for some reasn the healthbar has to update for the colors to be fixed so yeah
 						case 137:
-						dad.playAnim('spit1', true);
 						boyfriend.alpha = 0;
-						bf2.alpha = 1;
-						bf2.animation.play('scream');
+						bfscream.alpha = 1;
+						bfegg.alpha =0;
+						bfscream.animation.play('scream');
+						gf.playAnim('sad');
 						new FlxTimer().start(1, function(tmr:FlxTimer)
 							{
-								bf2.alpha = 0;
+								bfscream.alpha = 0;
+								bfegg.alpha = 0;
 								boyfriend.alpha = 1;
-								remove(bf2);
-								add(bf2);
+								remove(bfscream);
+								add(bfscream);
 							});
 	
 					}

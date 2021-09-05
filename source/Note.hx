@@ -125,22 +125,23 @@ class Note extends FlxSprite
 				antialiasing = true;
 		}
 
-		if (isSpecialAnim)
+		if (!isSpecialAnim)
 			{
 				switch (noteData)
 				{
 					case 0:
 						x += swagWidth * 0;
-						animation.play('lefte');
+						animation.play('purpleScroll');
 					case 1:
 						x += swagWidth * 1;
-						animation.play('downe');
+						animation.play('blueScroll');
 					case 2:
 						x += swagWidth * 2;
-						animation.play('upe');
+						animation.play('greenScroll');
 					case 3:
 						x += swagWidth * 3;
-						animation.play('righte');
+						animation.play('redScroll');
+
 				}
 			}
 		else
@@ -149,16 +150,16 @@ class Note extends FlxSprite
 			{
 				case 0:
 					x += swagWidth * 0;
-					animation.play('purpleScroll');
+					animation.play('lefte');
 				case 1:
 					x += swagWidth * 1;
-					animation.play('blueScroll');
+					animation.play('downe');
 				case 2:
 					x += swagWidth * 2;
-					animation.play('greenScroll');
+					animation.play('upe');
 				case 3:
 					x += swagWidth * 3;
-					animation.play('redScroll');
+					animation.play('righte');
 			}
 		}
 
