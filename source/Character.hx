@@ -180,7 +180,7 @@ class Character extends FlxSprite
 	
 					playAnim('idle');
 				case 'egg2':
-					tex = Paths.getSparrowAtlas('EggPhase2_v2','shared',true);
+					tex = Paths.getSparrowAtlas('Monsterbaby_v2','shared',true);
 					frames = tex;
 					animation.addByPrefix('idle', 'MB_idle instance 1', 12, false);
 					animation.addByPrefix('singUP', 'MB_up instance 1', 24, false);
@@ -193,7 +193,7 @@ class Character extends FlxSprite
 					playAnim('idle');
 
 				case 'egg3':
-					tex = Paths.getSparrowAtlas('EggPhase2_v2','shared',true);
+					tex = Paths.getSparrowAtlas('Monsterbaby_v2','shared',true);
 					frames = tex;
 					animation.addByPrefix('breakout', 'MB_BreakingOut instance 1', 24, false);
 					animation.addByPrefix('crackup', 'MB_CrackingUp instance 1', 24, false);

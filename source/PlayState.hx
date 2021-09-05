@@ -1020,9 +1020,9 @@ class PlayState extends MusicBeatState
 		if (SONG.song.toLowerCase() == 'stand up')
 			{
 				dad.alpha = 0;
-				eggh2 = new FlxSprite(-440, 80);
-				eggh2.frames = Paths.getSparrowAtlas('eggCutscene2','shared',true);
-				eggh2.animation.addByPrefix('breakout', 'EggCutscene2 instance 1', 24, false);
+				eggh2 = new FlxSprite(-420, 60);
+				eggh2.frames = Paths.getSparrowAtlas('Monsterbaby_v2','shared',true);
+				eggh2.animation.addByPrefix('breakout', 'MB_Animation instance 1', 24, false);
 				eggh2.alpha = 1;
 				add(eggh2);
 			}
@@ -2477,7 +2477,7 @@ class PlayState extends MusicBeatState
 						camFollow.x = dad.getMidpoint().x + 400;
 						camFollow.y = dad.getMidpoint().y - 300;
 					case 'egg2':
-						camFollow.x = dad.getMidpoint().x + 400;
+						camFollow.x = dad.getMidpoint().x - 90;
 						camFollow.y = dad.getMidpoint().y - 350;
 					case 'monsteregg' | 'monsteregg2':
 						camFollow.x = dad.getMidpoint().x + 400;
