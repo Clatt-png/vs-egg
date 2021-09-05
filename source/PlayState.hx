@@ -944,14 +944,16 @@ class PlayState extends MusicBeatState
 			if (curStage == 'limo')
 				add(limo);
 
-			if (SONG.song.toLowerCase() == 'let me hear you squawk')
-				{
+			        if (SONG.song.toLowerCase() == 'let me hear you squawk')
 					dad.alpha = 0;
 					eggh3 = new FlxSprite(-271, 200);
 					eggh3.frames = Paths.getSparrowAtlas('sickbabyEgg','shared',true);
 					eggh3.animation.addByPrefix('idle', 'MB_Sway instance 1', 24);
 					eggh3.animation.play('idle');
+					eggh3.alpha = 0;
 					add(eggh3);
+					if (SONG.song.toLowerCase() == 'let me hear you squawk')
+						eggh3.alpha = 1;
 	
 					bfscream = new FlxSprite(978, 480);
 					bfscream.frames = Paths.getSparrowAtlas('BoyFriend_Assets','shared',true);
@@ -980,7 +982,6 @@ class PlayState extends MusicBeatState
 					spitegg.y -= 100;
 					spitegg.x -= 30;
 					add(spitegg);
-				}
 
 			add(boyfriend);
 			add(dad);
