@@ -87,6 +87,7 @@ class PlayState extends MusicBeatState
 	public static var SONG:SwagSong;
 	public static var isStoryMode:Bool = false;
 	private var bfscream:FlxSprite;
+	var warntext:FlxSprite;
 	private var bfegg:FlxSprite;
 	public static var storyWeek:Int = 0;
 	public static var storyPlaylist:Array<String> = [];
@@ -1020,7 +1021,7 @@ class PlayState extends MusicBeatState
 		if (SONG.song.toLowerCase() == 'stand up')
 			{
 				dad.alpha = 0;
-				eggh2 = new FlxSprite(-420, 60);
+				eggh2 = new FlxSprite(-490, 55);
 				eggh2.frames = Paths.getSparrowAtlas('Monsterbaby_v2','shared',true);
 				eggh2.animation.addByPrefix('breakout', 'MB_Animation instance 1', 24, false);
 				eggh2.alpha = 1;
@@ -1100,12 +1101,12 @@ class PlayState extends MusicBeatState
 						camFollow.y -= 200;
 					}
 					else
-						camFollow.y += 20;
+						camFollow.y += 50;
 
 			  case 'monsteregg':
-				if (!isStoryMode)
+				if (isStoryMode)
 					{
-						camFollow.y -= 200;
+						camFollow.y -= 10;
 					}
 					else
 						camFollow.y -= 200;
@@ -1315,6 +1316,19 @@ class PlayState extends MusicBeatState
 			rep = new Replay("na");
 
 		FlxG.stage.addEventListener(KeyboardEvent.KEY_DOWN,handleInput);
+
+		warntext = new FlxSprite().loadGraphic(Paths.image('TapSpaceTwiceText'));
+		warntext.scrollFactor.x = 0;
+		warntext.scrollFactor.y = 0;
+		warntext.updateHitbox();
+		warntext.screenCenter();
+		warntext.y -= 200;
+		warntext.x += 200;
+		warntext.alpha = 0;
+		warntext.scale.set(0.6, 0.6);
+		warntext.antialiasing = FlxG.save.data.antialiasing;
+		add(warntext);
+		warntext.cameras = [camHUD];
 
 		super.create();
 	}
@@ -2477,11 +2491,11 @@ class PlayState extends MusicBeatState
 						camFollow.x = dad.getMidpoint().x + 400;
 						camFollow.y = dad.getMidpoint().y - 300;
 					case 'egg2':
-						camFollow.x = dad.getMidpoint().x - 90;
-						camFollow.y = dad.getMidpoint().y - 350;
+						camFollow.x = dad.getMidpoint().x - 250;
+						camFollow.y = dad.getMidpoint().y - 380;
 					case 'monsteregg' | 'monsteregg2':
 						camFollow.x = dad.getMidpoint().x + 400;
-						camFollow.y = dad.getMidpoint().y - 50;
+						camFollow.y = dad.getMidpoint().y - 70;
 				}
 
 				if (dad.curCharacter == 'mom')
@@ -3121,8 +3135,10 @@ class PlayState extends MusicBeatState
 	
 			rating.loadGraphic(Paths.image(pixelShitPart1 + daRating + pixelShitPart2));
 			rating.screenCenter();
-			rating.y -= 50;
+			rating.y += 230;
 			rating.x = coolText.x - 125;
+			rating.x -= 110;
+			rating.scale.set(0.6, 0.6);
 			
 			if (FlxG.save.data.changedHit)
 			{
@@ -3197,23 +3213,12 @@ class PlayState extends MusicBeatState
 			currentTimingShown.y = rating.y + 100;
 			currentTimingShown.acceleration.y = 600;
 			currentTimingShown.velocity.y -= 150;
+			currentTimingShown.alpha = 0;
 	
 			comboSpr.velocity.x += FlxG.random.int(1, 10);
 			currentTimingShown.velocity.x += comboSpr.velocity.x;
 			if(!PlayStateChangeables.botPlay || loadRep) add(rating);
 	
-			if (!curStage.startsWith('school'))
-			{
-				rating.setGraphicSize(Std.int(rating.width * 0.7));
-				rating.antialiasing = true;
-				comboSpr.setGraphicSize(Std.int(comboSpr.width * 0.7));
-				comboSpr.antialiasing = true;
-			}
-			else
-			{
-				rating.setGraphicSize(Std.int(rating.width * daPixelZoom * 0.7));
-				comboSpr.setGraphicSize(Std.int(comboSpr.width * daPixelZoom * 0.7));
-			}
 	
 			currentTimingShown.updateHitbox();
 			comboSpr.updateHitbox();
@@ -3244,6 +3249,8 @@ class PlayState extends MusicBeatState
 				var str:String = comboSplit[i];
 				seperatedScore.push(Std.parseInt(str));
 			}
+
+			comboSpr.scale.set(0.8, 0.8);
 	
 			var daLoop:Int = 0;
 			for (i in seperatedScore)
@@ -3813,6 +3820,7 @@ class PlayState extends MusicBeatState
 		}
 
 		function dothisnow() {
+			warntext.alpha = 1;
 			boyfriend.alpha = 0;
 			bfegg.alpha = 1;
 			bfegg.animation.play('gethit');
@@ -3836,8 +3844,9 @@ class PlayState extends MusicBeatState
 		}
 
 		function checkpress() {
-			if (spacepress >= 3)
+			if (spacepress >= 2)
 				{
+					warntext.alpha = 0;
 					playerStrums.forEach(function(spr:FlxSprite)
 						{
 							 spr.animation.play('dead');
@@ -3909,8 +3918,6 @@ class PlayState extends MusicBeatState
 
 					var altAnim:String = "";
 	
-					if (SONG.notes[curSection] != null)
-					{
 						if (note.specialAnim == true)
 						{
 							dad.alpha = 0;
@@ -3945,7 +3952,6 @@ class PlayState extends MusicBeatState
 							}
 
 						}
-					}
 
 
 					switch (note.noteData)
@@ -4310,6 +4316,11 @@ class PlayState extends MusicBeatState
 			{
 				boyfriend.playAnim('hey', true);
 				dad.playAnim('cheer', true);
+			}
+
+		if (curStep % 16 == 0)
+			{
+				curSection += 1;
 			}
 
 		switch (curStage)
