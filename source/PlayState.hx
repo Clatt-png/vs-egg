@@ -2755,18 +2755,25 @@ class PlayState extends MusicBeatState
 										totalNotesHit += 1;
 									else
 									{
-										health -= 0.075;
-										vocals.volume = 0;
-										if (theFunne)
-											noteMiss(daNote.noteData, daNote);
+										if (!daNote.specialAnim == true)
+											{		
+												health -= 0.075;
+												vocals.volume = 0;
+												if (theFunne)
+												noteMiss(daNote.noteData, daNote);
+											}
+
 									}
 								}
 								else
 								{
-									health -= 0.075;
-									vocals.volume = 0;
-									if (theFunne)
-										noteMiss(daNote.noteData, daNote);
+									if (!daNote.specialAnim == true)
+										{		
+											health -= 0.075;
+											vocals.volume = 0;
+											if (theFunne)
+											noteMiss(daNote.noteData, daNote);
+										}
 								}
 							}
 		
@@ -2891,7 +2898,7 @@ class PlayState extends MusicBeatState
 						openSubState(new ResultsScreen());
 					else
 					{
-						FlxG.sound.playMusic(Paths.music('freakyMenu'));
+						FlxG.sound.playMusic(Paths.music('eggMenu'));
 						FlxG.switchState(new MainMenuState());
 					}
 
@@ -3578,13 +3585,17 @@ class PlayState extends MusicBeatState
 	{
 		if (!boyfriend.stunned)
 		{
-			health -= 0.04;
-			if (combo > 5 && gf.animOffsets.exists('sad'))
-			{
-				gf.playAnim('sad');
-			}
-			combo = 0;
-			misses++;
+			if (!daNote.specialAnim == true)
+				{		
+					health -= 0.04;
+					if (combo > 5 && gf.animOffsets.exists('sad'))
+					{
+						gf.playAnim('sad');
+					}
+					combo = 0;
+					misses++;
+				}
+
 
 			if (daNote != null)
 			{
@@ -3609,7 +3620,11 @@ class PlayState extends MusicBeatState
 
 			songScore -= 10;
 
-			FlxG.sound.play(Paths.soundRandom('missnote', 1, 3), FlxG.random.float(0.1, 0.2));
+			if (!daNote.specialAnim == true)
+				{		
+					FlxG.sound.play(Paths.soundRandom('missnote', 1, 3), FlxG.random.float(0.1, 0.2));
+				}
+			
 			// FlxG.sound.play(Paths.sound('missnote1'), 1, false);
 			// FlxG.log.add('played imss note');
 
@@ -3780,9 +3795,16 @@ class PlayState extends MusicBeatState
 				if (mashViolations < 0)
 					mashViolations = 0;
 
+				if (note.specialAnim == true)
+					{
+						ss = false;
+						combo = 0;
+						misses++;
+					}
+
 				if (!note.wasGoodHit)
 				{
-					if (!note.isSustainNote)
+					if (!note.isSustainNote && note.specialAnim != true)
 					{
 						popUpScore(note);
 						combo += 1;
